@@ -1,0 +1,23 @@
+{
+  "name": "lamong2ne",
+  "version": "1.0.0",
+  "description": "라몽이네 뚝떡공방에서 사용하는 메뉴들을 소개하는 사이트",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sangheende/lamong2ne.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sangheende/lamong2ne/issues"
+  },
+  "homepage": "https://github.com/sangheende/lamong2ne#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
