@@ -1,221 +1,174 @@
 {
   "menu": [
     {
-      "id": 1,
-      "name": "약과",
-      "price": "1200",
-      "category": "전통과자",
-      "image": "https://images.unsplash.com/photo-1597629008285-a10132d20913?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8JUVDJUI5JTk4JUVDJTk1JTk5JUVCJUE3JTg4JUVDJTlEJUI0fGVufDB8fDB8fHwy",
-      "info": {
-        "desc": "꿀 향이 은은하게 퍼지는 달콤함, 전통의 깊은 맛이 살아있습니다.",
-        "use":["답례품","명절선물","감사선물","전통간식"],
-        "emotion":["고급스러운","감성적","전통적인"]
-      }
-    },
-    {
-      "id":2,
-      "name": "약과쿠키",
-      "price": "4500",
-      "category": "전통과자",
-      "image": "https://images.unsplash.com/photo-1597629008285-a10132d20913?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8JUVDJUI5JTk4JUVDJTk1JTk5JUVCJUE3JTg4JUVDJTlEJUI0fGVufDB8fDB8fHwy",
-      "info": {
-        "desc": "바삭한 쿠키와 약과의 깊은 맛이 달콤한 조화를 이뤘습니다.",
-        "use":["답례품","어린이간식","감사선물"],
-        "emotion":["감성적","트렌디한"]
-      }
-    },
-    {
-      "id":3,
-      "name": "쌀전병",
-      "price": "10000",
-      "category": "전통과자",
-      "image": "https://images.unsplash.com/photo-1597629008285-a10132d20913?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8JUVDJUI5JTk4JUVDJTk1JTk5JUVCJUE3JTg4JUVDJTlEJUI0fGVufDB8fDB8fHwy",
-      "info": {
-        "desc": "얇고 바삭하게 구워 고소함이 입안 가득 퍼지는 쌀전병.",
-        "use":["답례품","명절선물","감사선물","전통간식"],
-        "taste":["아몬드","검은깨","참깨","코코넛슬라이스","감태","땅콩"]
-      }
-    },
-    {
-      "id":4,
-      "name": "쌀마들렌",
-      "price": "3000",
-      "category": "전통과자",
-      "image": "https://images.unsplash.com/photo-1597629008285-a10132d20913?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8JUVDJUI5JTk4JUVDJTk1JTk5JUVCJUE3JTg4JUVDJTlEJUI0fGVufDB8fDB8fHwy",
-      "info": {
-        "desc": "부드럽고 촉촉함이 살아있는 레몬 마들렌",
-        "use":["답례품","감사선물","어린이간식","가벼운선물"]
-      }
-    },
-    {
-      "id":5,
+      "id":1,
       "name": "호두파이",
       "price": "3000",
       "category": "전통과자",
       "image": "https://images.unsplash.com/photo-1597629008285-a10132d20913?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8JUVDJUI5JTk4JUVDJTk1JTk5JUVCJUE3JTg4JUVDJTlEJUI0fGVufDB8fDB8fHwy",
       "info": {
-        "desc": "고소한 호두와 달콤한 시럽이 어우러진 파이",
+        "desc": "풍성한 호두와 진한 시럽이 어우러진 깊고 묵직한 풍미의 파이입니다. 묵직하고 균형잡힌 단맛이 특징입니다.",
         "use":["답례품","감사선물","가벼운선물"]
       }
     },
     {
-      "id":6,
-      "name": "귀리강정",
+      "id":2,
+      "name": "대추고 약밥",
       "price": "2000",
-      "category": "전통과자",
+      "category": "떡",
       "image": "https://images.unsplash.com/photo-1597629008285-a10132d20913?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8JUVDJUI5JTk4JUVDJTk1JTk5JUVCJUE3JTg4JUVDJTlEJUI0fGVufDB8fDB8fHwy",
       "info": {
-        "desc": "바삭한 귀리와 달콤한 조청이 어우러진 건강한 간식",
+        "desc": "달콤한 대추를 담아 깊은 품이를 완성한 약밥입니다. 전통의 맛을 현대적으로 풀어낸 프리미엄 디저트입니다.",
         "use":["답례품","감사선물","가벼운선물","건강간식"]
       }
     },
     {
-      "id":7,
-      "name": "곶감단지",
+      "id":3,
+      "name": "금귤정과",
       "price": "7000",
       "category": "전통과자",
       "image": "https://images.unsplash.com/photo-1597629008285-a10132d20913?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8JUVDJUI5JTk4JUVDJTk1JTk5JUVCJUE3JTg4JUVDJTlEJUI0fGVufDB8fDB8fHwy",
       "info": {
-        "desc": "쫀득한 곶감 속에 견과를 채워 달콤하고 고소한 맛을 살렸습니다.",
+        "desc": "상큼한 금귤 향과 맑은 단맛이 조화를 이루는 전통 정과입니다. 산뜻하면서도 품위 있는 풍미가 특징입니다",
         "use":["답례품","감사선물","프리미엄선물","전통간식"]
       }
     },
     {
-      "id":8,
+      "id":4,
       "name": "도라지정과",
       "price": "3000~25000",
       "category": "전통과자",
       "image": "https://images.unsplash.com/photo-1597629008285-a10132d20913?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8JUVDJUI5JTk4JUVDJTk1JTk5JUVCJUE3JTg4JUVDJTlEJUI0fGVufDB8fDB8fHwy",
       "info": {
-        "desc": "도라지의 쌉싸름한 맛과 달콤한 조청이 어우러져 깊은 맛이 일품인 정과입니다",
+        "desc": "건강을 생각하며 도라지 특유의 향을 살리고 절제된 단맛으로 완성한 전통 정과입니다. 차와 함께 곁들이기 좋은 고급 간식입니다",
         "use":["답례품","감사선물","프리미엄선물","전통간식"]
       }
     },
     {
-      "id":9,
+      "id":5,
       "name": "호두정과",
       "price": "3000~15000",
       "category": "전통과자",
       "image": "https://images.unsplash.com/photo-1597629008285-a10132d20913?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8JUVDJUI5JTk4JUVDJTk1JTk5JUVCJUE3JTg4JUVDJTlEJUI0fGVufDB8fDB8fHwy",
       "info": {
-        "desc": "달콤하게 졸인 호두의 진한 풍미와 고소함을 살렸습니다",
+        "desc": "호두를 정성스럽게 졸여 고소함을 갚게 끌어올린 프리미엄 정과입니다. 격식 있는 선물로도 손색없는 메뉴입니다.",
         "use":["답례품","감사선물","프리미엄선물","전통간식"]
       }
     },
     {
-      "id":10,
-      "name": "곶감단지",
+      "id":6,
+      "name": "꽃설기",
       "price": "7000",
-      "category": "전통과자",
+      "category": "떡",
       "image": "https://images.unsplash.com/photo-1597629008285-a10132d20913?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8JUVDJUI5JTk4JUVDJTk1JTk5JUVCJUE3JTg4JUVDJTlEJUI0fGVufDB8fDB8fHwy",
       "info": {
-        "desc": "쫀득한 곶감 속에 견과를 채워 달콤하고 고소한 맛을 살렸습니다.",
+        "desc": "부드럽게 쪄낸 설기를 꽃 형태로 빚어낸 프리미엄 설기입니다. 단아한 형태와 절제된 단맛이 돋보이는 고급 답례용 떡입니다.",
         "use":["답례품","감사선물","프리미엄선물","전통간식"]
       }
     },
     {
-      "id":11,
+      "id":7,
       "name": "오란다",
       "price": "2000",
       "category": "전통과자",
       "image": "https://images.unsplash.com/photo-1597629008285-a10132d20913?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8JUVDJUI5JTk4JUVDJTk1JTk5JUVCJUE3JTg4JUVDJTlEJUI0fGVufDB8fDB8fHwy",
       "info": {
-        "desc": "바삭하게 튀긴 곡물에 조청의 달콤함을 더한 전통과자입니다.",
+        "desc": "바삭한 곡물과 조청의 깊은 단맛이 어우러진 전통간식입니다. 담백하면서도 정겨운 품미가 인상적인 메뉴입니다",
         "use":["답례품","감사선물","어린이간식","전통간식"],
         "taste":["기본","견과","검은깨","감태"]
       }
     },
     {
-      "id":12,
-      "name": "도라지양갱",
+      "id":8,
+      "name": "수제 양갱",
       "price": ["2000","미니-1500"],
       "category": "전통과자",
       "image": "https://images.unsplash.com/photo-1597629008285-a10132d20913?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8JUVDJUI5JTk4JUVDJTk1JTk5JUVCJUE3JTg4JUVDJTlEJUI0fGVufDB8fDB8fHwy",
       "info": {
-        "desc": "도라지의 쌉싸름함을 줄이고 건강한 맛을 살린 양갱입니다.",
+        "desc": "팥, 흑임자, 호지차, 군고구마 등 다양한 풍미로 구성된 프리미엄 수제 양갱입니다. 매끄러운 식감과 절제된 단맛이 어우러진 고급 디저트입니다.",
         "use":["답례품","감사선물","프리미엄선물","전통간식"]
       }
     },
     {
-      "id":13,
-      "name": "쌀쿠키",
-      "price": ["소-3000","즁-6000","대-12000"],
+      "id":9,
+      "name": "한입쌀쿠키",
+      "price": "3000 ~",
       "category": "전통과자",
       "image": "https://images.unsplash.com/photo-1597629008285-a10132d20913?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8JUVDJUI5JTk4JUVDJTk1JTk5JUVCJUE3JTg4JUVDJTlEJUI0fGVufDB8fDB8fHwy",
       "info": {
-        "desc": "쌀가루를 이용해 구운 달콤하고 건강한 쿠키입니다",
+        "desc": "쌀가루를 이용해 고소함과 바삭함을 살린 수제 쿠키입니다. 가볍게 즐기기 좋은 간식입니다",
         "use":["답례품","감사선물","가벼운선물","어린이간식"],
         "taste":["초코칩","라즈베리","초코","황치즈"]
       }
     },
     {
-      "id":14,
+      "id":10,
       "name": "수박떡바",
       "price": 2500,
       "category": "떡",
       "image": "https://images.unsplash.com/photo-1597629008285-a10132d20913?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8JUVDJUI5JTk4JUVDJTk1JTk5JUVCJUE3JTg4JUVDJTlEJUI0fGVufDB8fDB8fHwy",
       "info": {
-        "desc": "상큼한 수박향이 나는 아이스크림이 생각나는 떡입니다",
+        "desc": "한 조각 수박을 닮은 형태로 정성스럽게 쪄낸 떡입니다. 쫀득한 식감과 절제된 단맛으로 여름의 순간을 느껴보세요.",
         "use":["답례품","감사선물","어린이간식","가벼운선물"]
       }
     },
     {
-      "id":15,
+      "id":11,
       "name": "바람떡",
       "price": 1500,
       "category": "떡",
       "image": "https://images.unsplash.com/photo-1597629008285-a10132d20913?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8JUVDJUI5JTk4JUVDJTk1JTk5JUVCJUE3JTg4JUVDJTlEJUI0fGVufDB8fDB8fHwy",
       "info": {
-        "desc": "귀여운 모양과 알록달록한 색의 떡피 속 달콤한 앙금이 어우러진 떡입니다",
+        "desc": "귀여운 모양과 알록달록한 색의 떡피 속 달콤한 앙금을 담아 맛과 비주얼을 모두 즐길 수 있는 떡입니다. 부담없이 즐기기 좋은 디저트입니다.",
         "use":["답례품","감사선물","어린이간식","가벼운선물","전통간식"]
       }
     },
     {
-      "id":16,
-      "name": "돼지떡바",
+      "id":12,
+      "name": "하트설기",
       "price": 2500,
       "category": "떡",
       "image": "https://images.unsplash.com/photo-1597629008285-a10132d20913?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8JUVDJUI5JTk4JUVDJTk1JTk5JUVCJUE3JTg4JUVDJTlEJUI0fGVufDB8fDB8fHwy",
       "info": {
-        "desc": "초코칩과 달콤한 딸기잼이 어우러진 아이스크림이 생각나는 떡입니다",
+        "desc": "정갈한 설기를 사랑스러운 하트모양으로 빚어낸 설기입니다. 담백한 풍미로 감사와 사랑의 마음을 전하기 좋은 떡입니다.",
         "use":["답례품","감사선물","어린이간식","가벼운선물"]
       }
     },
     {
-      "id":16,
-      "name": "돼지떡바",
+      "id":13,
+      "name": "설기케이크",
       "price": 2500,
-      "category": "떡",
+      "category": "케이크",
       "image": "https://images.unsplash.com/photo-1597629008285-a10132d20913?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8JUVDJUI5JTk4JUVDJTk1JTk5JUVCJUE3JTg4JUVDJTlEJUI0fGVufDB8fDB8fHwy",
       "info": {
-        "desc": "초코칩과 달콤한 딸기잼이 어우러진 아이스크림이 생각나는 떡입니다",
+        "desc": "촉촉한 설기를 정갈하게 쌓아 올려 담백한 단맛을 살린 전통 케이크입니다. 부담없이 즐기명서도 격식을 갖춘 자리에 어울리는 메뉴입니다.",
         "use":["답례품","감사선물","어린이간식","가벼운선물"]
       }
     },
     {
-      "id":17,
+      "id":14,
       "name": "수수팥떡",
       "price": 30000,
       "category": "떡",
       "image": "https://images.unsplash.com/photo-1597629008285-a10132d20913?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8JUVDJUI5JTk4JUVDJTk1JTk5JUVCJUE3JTg4JUVDJTlEJUI0fGVufDB8fDB8fHwy",
       "info": {
-        "desc": "고소한 수수와 달콤한 팥앙금이 어우러진 전통 떡입니다",
+        "desc": "구수한 수수와 달콤한 팥이 어우러진 전통 떡입니다. 담백하면서도 깊은 맛으로 전통의 풍미를 느낄 수 있는 메뉴입니다.",
         "use":["답례품","감사선물","전통간식","돌잔치"]
       }
     },
     {
-      "id":18,
-      "name": "도장송편",
+      "id":15,
+      "name": "송편",
       "price": ["개별-1000","30000"],
       "category": "떡",
       "image": "https://images.unsplash.com/photo-1597629008285-a10132d20913?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8JUVDJUI5JTk4JUVDJTk1JTk5JUVCJUE3JTg4JUVDJTlEJUI0fGVufDB8fDB8fHwy",
       "info": {
-        "desc": "고소한 깨소가 들어가 한입마다 정성과 풍미가 있는 송편입니다",
+        "desc": "고소한 꺠소와 쫀득한 떡의 조화가 돋보이는 전통 송편입니다. 전통의 깊은 맛을 담아 격식있는 자리에 어울립니다.",
         "use":["답례품","감사선물","전통간식","가벼운선물"]
       }
     },
     {
-      "id":19,
+      "id":16,
       "name": "조각설기",
       "price": 30000,
       "category": "떡",
@@ -226,116 +179,107 @@
       }
     },
     {
-      "id":20,
-      "name": "아이스 찹쌀떡",
+      "id":17,
+      "name": "시루떡",
       "price": 3000,
       "category": "떡",
       "image": "https://images.unsplash.com/photo-1597629008285-a10132d20913?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8JUVDJUI5JTk4JUVDJTk1JTk5JUVCJUE3JTg4JUVDJTlEJUI0fGVufDB8fDB8fHwy",
       "info": {
-        "desc": "쫀뜩한 찹쌀피 속 크림이 들어간 시원하고 귀여운 과일모양 떡입니다",
+        "desc": "설기와 팥을 켜켜히 쌓아 올려 정성슬헙게 쪄낸 정통 떡입니다. 차분한 단맛과 포근한 식감이 돋보입니다.",
         "use":["답례품","감사선물","가벼운선물","수능"],
         "taste":["복숭아","밤","토마토","청사과","배","감","망고"]
       }
     },
     {
-      "id":21,
-      "name": "구움찰떡",
+      "id":18,
+      "name": "딸기찹쌀떡",
       "price": 3000,
       "category": "떡",
       "image": "https://images.unsplash.com/photo-1597629008285-a10132d20913?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8JUVDJUI5JTk4JUVDJTk1JTk5JUVCJUE3JTg4JUVDJTlEJUI0fGVufDB8fDB8fHwy",
       "info": {
-        "desc": "겉은 바삭하고 속은 쫀득한 찰떡으로 구워낸 특별한 떡입니다",
+        "desc": "신선한 생딸기와 쫀득한 떡이 조화를 이루는 계절 한정 떡입니다. 상큼함과 달콤함이 균형을 이루는 메뉴입니다.",
         "use":["답례품","감사선물","가벼운선물","어린이간식"],
-        "taste":["단호박","쑥&팥","흑임자","무화과","초코"]
+        "season":["spring","winter"]
       }
     },
     {
-      "id":22,
-      "name": "하트절편",
-      "price": ["500g-30000","700g-40000","1kg-50000","1.5kg-60000"],
-      "category": "떡",
-      "image": "https://images.unsplash.com/photo-1597629008285-a10132d20913?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8JUVDJUI5JTk4JUVDJTk1JTk5JUVCJUE3JTg4JUVDJTlEJUI0fGVufDB8fDB8fHwy",
-      "info": {
-        "desc": "말랑하고 쫀득한 식감에 은은한 단맛을 더한 사랑스러운 모양의 절편입니다",
-        "use":["답례품","감사선물","가벼운선물","어린이간식"]
-      }
-    },
-    {
-      "id":23,
+      "id":19,
       "name": "인절미",
       "price": 15000,
       "category": "떡",
       "image": "https://images.unsplash.com/photo-1597629008285-a10132d20913?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8JUVDJUI5JTk4JUVDJTk1JTk5JUVCJUE3JTg4JUVDJTlEJUI0fGVufDB8fDB8fHwy",
       "info": {
-        "desc": "고소한 콩가루와 쫀득한 떡이 강점인 인절미입니다",
+        "desc": "곱게 묻힌 콩가루의 고소함과 부드러운 떡의 식감이 어우러진 전통 떡입니다. 절제된 단맛으로 오레도록 사랑받는 메뉴입니다.",
         "use":["답례품","감사선물","가벼운선물","전통간식"],
-        "taste":["단호박","초코"]
+        "taste":["기본","단호박"]
       }
     },
     {
-      "id":24,
+      "id":20,
       "name": "쌀술빵",
       "price": 2500,
       "category": "빵",
       "image": "https://images.unsplash.com/photo-1597629008285-a10132d20913?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8JUVDJUI5JTk4JUVDJTk1JTk5JUVCJUE3JTg4JUVDJTlEJUI0fGVufDB8fDB8fHwy",
       "info": {
-        "desc": "은은한 누룩향과 쌀의 담백함이 어우러진 부드러운 발효빵입니다",
+        "desc": "은은한 누룩향과 쌀의 담백함이 어우러진 전통 발효빵입니다. 부드럽고ㅗ 촉촉한 식감이 매력적인 메뉴입니다.",
         "use":["답례품","감사선물","가벼운선물","전통간식","어린이간식"],
         "taste":["기본","단호박","흑임자","쑥","딸기"]
       }
     },
     {
-      "id":25,
+      "id":21,
       "name": "고구마빵",
       "price": 3500,
       "category": "빵",
       "image": "https://images.unsplash.com/photo-1597629008285-a10132d20913?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8JUVDJUI5JTk4JUVDJTk1JTk5JUVCJUE3JTg4JUVDJTlEJUI0fGVufDB8fDB8fHwy",
       "info": {
-        "desc": "달콤한 고구마의 맛이 포근하게 녹아드는 빵입니다",
-        "use":["답례품","감사선물","가벼운선물","어린이간식"]
+        "desc": "달콤한 고구마의 깊은 풍미를 담아 부드럽게 완성한 프리미엄 빵입니다. 따듯한 차와 잘 어울리는 디저트입니다.",
+        "use":["답례품","감사선물","가벼운선물","어린이간식"],
+        "season":["fall","winter"]
       }
     },
     {
-      "id":26,
+      "id":22,
       "name": "감자빵",
       "price": 3500,
       "category": "빵",
       "image": "https://images.unsplash.com/photo-1597629008285-a10132d20913?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8JUVDJUI5JTk4JUVDJTk1JTk5JUVCJUE3JTg4JUVDJTlEJUI0fGVufDB8fDB8fHwy",
       "info": {
-        "desc": "담백한 감자향과 쫀득한 빵결이 어우러진 포근한 맛의 빵입니다",
-        "use":["답례품","감사선물","가벼운선물","어린이간식"]
+        "desc": "포슬한 감자와 쫀득한 식감이 어우러진 빵입니다. 갓 캔 감자같은 모습과 은은한 단맛이 여운을 남기는 메뉴입니다.",
+        "use":["답례품","감사선물","가벼운선물","어린이간식"],
+        "season":["summer","fall"]
       }
     },
     {
-      "id":27,
-      "name": "하트절편케이크",
+      "id":23,
+      "name": "절편꽃케이크",
       "price": 30000,
       "category": "케이크",
       "image": "https://images.unsplash.com/photo-1597629008285-a10132d20913?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8JUVDJUI5JTk4JUVDJTk1JTk5JUVCJUE3JTg4JUVDJTlEJUI0fGVufDB8fDB8fHwy",
       "info": {
-        "desc": "절편의 쫀득한 식감과 은은한 단맛이 어우러진 감성 케이크입니다",
+        "desc": "포슬한 설기 위헤 절편으로 만든 수공예 꽃 장식을 더해 전통의 품격을 현대적으로 재해석한 케이크입니다. 격식있는 자리에 어울리는 특별한 메뉴입니다.",
         "use":["케이크","생일케이크","축하케이크"]
       }
     },
     {
-      "id":28,
-      "name": "돼지머리케이크",
+      "id":24,
+      "name": "돼지케이크",
       "price": 30000,
       "category": "케이크",
       "image": "https://images.unsplash.com/photo-1597629008285-a10132d20913?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8JUVDJUI5JTk4JUVDJTk1JTk5JUVCJUE3JTg4JUVDJTlEJUI0fGVufDB8fDB8fHwy",
       "info": {
-        "desc": "절편의 쫀득한 식감과 은은한 단맛이 어우러진 감성 케이크입니다",
+        "desc": "복과 번영의 상징을 담아 정성스럽게 완성한 프리미엄 떡 케이크입니다. 소중한 기념일에 의미를 더하는 특별한 선택입니다.",
         "use":["케이크","고사케이크","축하케이크"]
       }
     },
     {
-      "id":30,
-      "name": "수박떡케이크",
-      "price": ["1단-25000","2단-45000","3단-65000"],
+      "id":25,
+      "name": "12띠 동물 케이크",
+      "price": 25000,
       "category": "케이크",
       "image": "https://images.unsplash.com/photo-1597629008285-a10132d20913?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8JUVDJUI5JTk4JUVDJTk1JTk5JUVCJUE3JTg4JUVDJTlEJUI0fGVufDB8fDB8fHwy",
       "info": {
-        "desc": "절편의 쫀득한 식감과 은은한 단맛이 어우러진 감성 케이크입니다",
+        "desc": "십이지 동물을 귀뎝게 표현한 맞춤제작 케이크입니다. 탄생과 성장의 의미를 담아 특별한 날을 기념하는 프리미엄 떡 케이크입니다. ",
         "use":["케이크","생일케이크","축하케이크"]
       }
     }

@@ -7,14 +7,15 @@ export default function MenuList({$app, initialState}) {
 
     
     this.template = () => {
-        let temp = `<div class="menuList__container">`;
+        let temp = `<div class="menuList__content">`;
         if (this.state) {
+            console.log(this.state.menu)
             this.state.menu.forEach((elm) => {
                 temp += `
-                    <div class="city-item" id=${elm.id}>
+                    <div class="menuList__item" id=${elm.id}>
                         <img src=${elm.image}></img>
-                        <div class="city-item-info">${elm.name}</div>
-                        <div class="city-item-score">⭐️ ${elm.price}</div>
+                        <div class="menuList__item__name">${elm.name}</div>
+                        <div class="menuList__item__price">${elm.price}</div>
                     </div>
                `;
             });
@@ -24,7 +25,6 @@ export default function MenuList({$app, initialState}) {
     };
 
     this.render = () => {
-        console.log(this.state.menuName)
         this.$target.innerHTML = this.template();
     }
 

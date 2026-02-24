@@ -14,7 +14,33 @@ export default function App($app) {
         menuName : '',//메뉴 이름
     };
 
-    const header = new Header();
+    const header = new Header({
+        $app,initialState:{sortBy:this.state.sortBy,searchMenu:this.state.searchMenu},
+
+        //헤더의 검색값
+        headerSearchChange : async(searchMenu) => {
+
+            const menuName = await request(0, this.state.category, this.state.sortBy, searchMenu);
+            // 검색값이 MenuList에 반영되도록
+           const matchName = menuName.menu.filter(elm => elm.name.includes(searchMenu));
+
+           //검색 결과가 없을 때
+           let newMenu;
+           if(matchName.length === 0){
+               alert('검색 결과가 없습니다');
+               newMenu = menuName.menu; // 전체 메뉴 보여주기
+           } else {
+               newMenu = matchName; // 검색 결과만 보여주기
+           }
+           this.setState({
+               ...this.state,
+               startIdx: 0,
+               menuName: { menu: newMenu },
+               searchMenu: searchMenu
+           });
+
+        }
+});
     const category = new Category();
     const menuDetail = new MenuDetail();
     const menuList = new MenuList({
@@ -25,8 +51,16 @@ export default function App($app) {
     this.setState = (newState)=> {
         this.state = newState;
 
+        header.setState({
+            // sortBy : this.state.sortBy,
+            searchMenu: this.state.searchMenu
+        })
         //메뉴 리스트에 상태 전달
         menuList.setState(this.state.menuName);
+
+        if (window.feather) {
+           window.feather.replace();
+        }
     }
 
     const init = async() => {
@@ -35,8 +69,6 @@ export default function App($app) {
             ...this.state,
             menuName: menuName,
         })
-
-        console.log(menuName)
     }
 
     init();
