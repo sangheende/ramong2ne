@@ -6,6 +6,7 @@ import MenuList from './component/MenuList.js'
 import {request} from './api.js'
 
 export default function App($app) {
+
     this.state = {
         startIdx : 0,//몇번째 메뉴부터 불러올지
         sortBy : '',//정렬 기준
@@ -14,6 +15,7 @@ export default function App($app) {
         menuName : '',//메뉴 이름
     };
 
+    //헤더 및 검색기능
     const header = new Header({
         $app,initialState:{sortBy:this.state.sortBy,searchMenu:this.state.searchMenu},
 
@@ -40,23 +42,28 @@ export default function App($app) {
            });
 
         }
-});
-    const category = new Category();
-    const menuDetail = new MenuDetail();
+    });
+
+
     const menuList = new MenuList({
         $app,
         initialState: this.state.menuName,
     });
 
+    //세부 메뉴
+    const menuDetail = new MenuDetail();
+
+
     this.setState = (newState)=> {
         this.state = newState;
 
         header.setState({
-            // sortBy : this.state.sortBy,
             searchMenu: this.state.searchMenu
-        })
+        });
         //메뉴 리스트에 상태 전달
         menuList.setState(this.state.menuName);
+
+
 
         if (window.feather) {
            window.feather.replace();
