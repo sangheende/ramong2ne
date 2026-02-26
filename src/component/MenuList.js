@@ -11,6 +11,7 @@ export default function MenuList({$app, initialState}) {
         if (this.state) {
             console.log(this.state.menu)
             this.state.menu.forEach((elm) => {
+
                 temp += `
                     <div class="menuList__item" id=${elm.id}>
                         <img src=${elm.image}></img>

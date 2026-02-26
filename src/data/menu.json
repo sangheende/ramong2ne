@@ -4,7 +4,7 @@
       "id":1,
       "name": "호두파이",
       "price": "3000",
-      "category": "전통과자",
+      "category": "구움과자",
       "image": "https://images.unsplash.com/photo-1597629008285-a10132d20913?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8JUVDJUI5JTk4JUVDJTk1JTk5JUVCJUE3JTg4JUVDJTlEJUI0fGVufDB8fDB8fHwy",
       "info": {
         "desc": "풍성한 호두와 진한 시럽이 어우러진 깊고 묵직한 풍미의 파이입니다. 묵직하고 균형잡힌 단맛이 특징입니다.",
@@ -15,7 +15,7 @@
       "id":2,
       "name": "대추고 약밥",
       "price": "2000",
-      "category": "떡",
+      "category": "떡 / 빵",
       "image": "https://images.unsplash.com/photo-1597629008285-a10132d20913?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8JUVDJUI5JTk4JUVDJTk1JTk5JUVCJUE3JTg4JUVDJTlEJUI0fGVufDB8fDB8fHwy",
       "info": {
         "desc": "달콤한 대추를 담아 깊은 품이를 완성한 약밥입니다. 전통의 맛을 현대적으로 풀어낸 프리미엄 디저트입니다.",
@@ -26,7 +26,7 @@
       "id":3,
       "name": "금귤정과",
       "price": "7000",
-      "category": "전통과자",
+      "category": "구움과자",
       "image": "https://images.unsplash.com/photo-1597629008285-a10132d20913?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8JUVDJUI5JTk4JUVDJTk1JTk5JUVCJUE3JTg4JUVDJTlEJUI0fGVufDB8fDB8fHwy",
       "info": {
         "desc": "상큼한 금귤 향과 맑은 단맛이 조화를 이루는 전통 정과입니다. 산뜻하면서도 품위 있는 풍미가 특징입니다",
@@ -37,7 +37,7 @@
       "id":4,
       "name": "도라지정과",
       "price": "3000~25000",
-      "category": "전통과자",
+      "category": "구움과자",
       "image": "https://images.unsplash.com/photo-1597629008285-a10132d20913?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8JUVDJUI5JTk4JUVDJTk1JTk5JUVCJUE3JTg4JUVDJTlEJUI0fGVufDB8fDB8fHwy",
       "info": {
         "desc": "건강을 생각하며 도라지 특유의 향을 살리고 절제된 단맛으로 완성한 전통 정과입니다. 차와 함께 곁들이기 좋은 고급 간식입니다",
@@ -48,7 +48,7 @@
       "id":5,
       "name": "호두정과",
       "price": "3000~15000",
-      "category": "전통과자",
+      "category": "구움과자",
       "image": "https://images.unsplash.com/photo-1597629008285-a10132d20913?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8JUVDJUI5JTk4JUVDJTk1JTk5JUVCJUE3JTg4JUVDJTlEJUI0fGVufDB8fDB8fHwy",
       "info": {
         "desc": "호두를 정성스럽게 졸여 고소함을 갚게 끌어올린 프리미엄 정과입니다. 격식 있는 선물로도 손색없는 메뉴입니다.",
@@ -59,7 +59,7 @@
       "id":6,
       "name": "꽃설기",
       "price": "7000",
-      "category": "떡",
+      "category": "떡 / 빵",
       "image": "https://images.unsplash.com/photo-1597629008285-a10132d20913?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8JUVDJUI5JTk4JUVDJTk1JTk5JUVCJUE3JTg4JUVDJTlEJUI0fGVufDB8fDB8fHwy",
       "info": {
         "desc": "부드럽게 쪄낸 설기를 꽃 형태로 빚어낸 프리미엄 설기입니다. 단아한 형태와 절제된 단맛이 돋보이는 고급 답례용 떡입니다.",
@@ -70,7 +70,7 @@
       "id":7,
       "name": "오란다",
       "price": "2000",
-      "category": "전통과자",
+      "category": "구움과자",
       "image": "https://images.unsplash.com/photo-1597629008285-a10132d20913?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8JUVDJUI5JTk4JUVDJTk1JTk5JUVCJUE3JTg4JUVDJTlEJUI0fGVufDB8fDB8fHwy",
       "info": {
         "desc": "바삭한 곡물과 조청의 깊은 단맛이 어우러진 전통간식입니다. 담백하면서도 정겨운 품미가 인상적인 메뉴입니다",
@@ -82,7 +82,7 @@
       "id":8,
       "name": "수제 양갱",
       "price": ["2000","미니-1500"],
-      "category": "전통과자",
+      "category": "구움과자",
       "image": "https://images.unsplash.com/photo-1597629008285-a10132d20913?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8JUVDJUI5JTk4JUVDJTk1JTk5JUVCJUE3JTg4JUVDJTlEJUI0fGVufDB8fDB8fHwy",
       "info": {
         "desc": "팥, 흑임자, 호지차, 군고구마 등 다양한 풍미로 구성된 프리미엄 수제 양갱입니다. 매끄러운 식감과 절제된 단맛이 어우러진 고급 디저트입니다.",
@@ -93,7 +93,7 @@
       "id":9,
       "name": "한입쌀쿠키",
       "price": "3000 ~",
-      "category": "전통과자",
+      "category": "구움과자",
       "image": "https://images.unsplash.com/photo-1597629008285-a10132d20913?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8JUVDJUI5JTk4JUVDJTk1JTk5JUVCJUE3JTg4JUVDJTlEJUI0fGVufDB8fDB8fHwy",
       "info": {
         "desc": "쌀가루를 이용해 고소함과 바삭함을 살린 수제 쿠키입니다. 가볍게 즐기기 좋은 간식입니다",
@@ -105,7 +105,7 @@
       "id":10,
       "name": "수박떡바",
       "price": 2500,
-      "category": "떡",
+      "category": "떡 / 빵",
       "image": "https://images.unsplash.com/photo-1597629008285-a10132d20913?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8JUVDJUI5JTk4JUVDJTk1JTk5JUVCJUE3JTg4JUVDJTlEJUI0fGVufDB8fDB8fHwy",
       "info": {
         "desc": "한 조각 수박을 닮은 형태로 정성스럽게 쪄낸 떡입니다. 쫀득한 식감과 절제된 단맛으로 여름의 순간을 느껴보세요.",
@@ -116,7 +116,7 @@
       "id":11,
       "name": "바람떡",
       "price": 1500,
-      "category": "떡",
+      "category": "떡 / 빵",
       "image": "https://images.unsplash.com/photo-1597629008285-a10132d20913?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8JUVDJUI5JTk4JUVDJTk1JTk5JUVCJUE3JTg4JUVDJTlEJUI0fGVufDB8fDB8fHwy",
       "info": {
         "desc": "귀여운 모양과 알록달록한 색의 떡피 속 달콤한 앙금을 담아 맛과 비주얼을 모두 즐길 수 있는 떡입니다. 부담없이 즐기기 좋은 디저트입니다.",
@@ -127,7 +127,7 @@
       "id":12,
       "name": "하트설기",
       "price": 2500,
-      "category": "떡",
+      "category": "떡 / 빵",
       "image": "https://images.unsplash.com/photo-1597629008285-a10132d20913?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8JUVDJUI5JTk4JUVDJTk1JTk5JUVCJUE3JTg4JUVDJTlEJUI0fGVufDB8fDB8fHwy",
       "info": {
         "desc": "정갈한 설기를 사랑스러운 하트모양으로 빚어낸 설기입니다. 담백한 풍미로 감사와 사랑의 마음을 전하기 좋은 떡입니다.",
@@ -149,7 +149,7 @@
       "id":14,
       "name": "수수팥떡",
       "price": 30000,
-      "category": "떡",
+      "category": "떡 / 빵",
       "image": "https://images.unsplash.com/photo-1597629008285-a10132d20913?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8JUVDJUI5JTk4JUVDJTk1JTk5JUVCJUE3JTg4JUVDJTlEJUI0fGVufDB8fDB8fHwy",
       "info": {
         "desc": "구수한 수수와 달콤한 팥이 어우러진 전통 떡입니다. 담백하면서도 깊은 맛으로 전통의 풍미를 느낄 수 있는 메뉴입니다.",
@@ -160,7 +160,7 @@
       "id":15,
       "name": "송편",
       "price": ["개별-1000","30000"],
-      "category": "떡",
+      "category": "떡 / 빵",
       "image": "https://images.unsplash.com/photo-1597629008285-a10132d20913?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8JUVDJUI5JTk4JUVDJTk1JTk5JUVCJUE3JTg4JUVDJTlEJUI0fGVufDB8fDB8fHwy",
       "info": {
         "desc": "고소한 꺠소와 쫀득한 떡의 조화가 돋보이는 전통 송편입니다. 전통의 깊은 맛을 담아 격식있는 자리에 어울립니다.",
@@ -171,7 +171,7 @@
       "id":16,
       "name": "조각설기",
       "price": 30000,
-      "category": "떡",
+      "category": "떡 / 빵",
       "image": "https://images.unsplash.com/photo-1597629008285-a10132d20913?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8JUVDJUI5JTk4JUVDJTk1JTk5JUVCJUE3JTg4JUVDJTlEJUI0fGVufDB8fDB8fHwy",
       "info": {
         "desc": "부드럽고 포슬한 식감이 살아있는 백설기입니다",
@@ -182,7 +182,7 @@
       "id":17,
       "name": "시루떡",
       "price": 3000,
-      "category": "떡",
+      "category": "떡 / 빵",
       "image": "https://images.unsplash.com/photo-1597629008285-a10132d20913?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8JUVDJUI5JTk4JUVDJTk1JTk5JUVCJUE3JTg4JUVDJTlEJUI0fGVufDB8fDB8fHwy",
       "info": {
         "desc": "설기와 팥을 켜켜히 쌓아 올려 정성슬헙게 쪄낸 정통 떡입니다. 차분한 단맛과 포근한 식감이 돋보입니다.",
@@ -194,7 +194,7 @@
       "id":18,
       "name": "딸기찹쌀떡",
       "price": 3000,
-      "category": "떡",
+      "category": "떡 / 빵",
       "image": "https://images.unsplash.com/photo-1597629008285-a10132d20913?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8JUVDJUI5JTk4JUVDJTk1JTk5JUVCJUE3JTg4JUVDJTlEJUI0fGVufDB8fDB8fHwy",
       "info": {
         "desc": "신선한 생딸기와 쫀득한 떡이 조화를 이루는 계절 한정 떡입니다. 상큼함과 달콤함이 균형을 이루는 메뉴입니다.",
@@ -206,7 +206,7 @@
       "id":19,
       "name": "인절미",
       "price": 15000,
-      "category": "떡",
+      "category": "떡 / 빵",
       "image": "https://images.unsplash.com/photo-1597629008285-a10132d20913?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8JUVDJUI5JTk4JUVDJTk1JTk5JUVCJUE3JTg4JUVDJTlEJUI0fGVufDB8fDB8fHwy",
       "info": {
         "desc": "곱게 묻힌 콩가루의 고소함과 부드러운 떡의 식감이 어우러진 전통 떡입니다. 절제된 단맛으로 오레도록 사랑받는 메뉴입니다.",
