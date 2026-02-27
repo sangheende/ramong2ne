@@ -5,16 +5,45 @@ export default function MenuList({$app, initialState}) {
 
     $app.appendChild(this.$target);
 
+    let today = new Date();
+    let month = today.getMonth() + 1;
+
+    let seasonMenu;
+
+   switch (month) {
+        case 12:
+        case 1:
+        case 2:
+            seasonMenu = "winter";
+            break;
+        case 3:
+        case 4:
+        case 5:
+            seasonMenu = "spring";
+            break;
+        case 6:
+        case 7:
+        case 8:
+            seasonMenu = "summer";
+            break;
+        case 9:
+        case 10:
+        case 11:
+            seasonMenu = "fall";
+            break;
+    }
+    
     
     this.template = () => {
         let temp = `<div class="menuList__content">`;
         if (this.state) {
-            console.log(this.state.menu)
             this.state.menu.forEach((elm) => {
 
                 temp += `
-                    <div class="menuList__item" id=${elm.id}>
-                        <img src=${elm.image}></img>
+                    <div class="menuList__item${Array.isArray(elm.info.season) && !elm.info.season.includes(seasonMenu) ? ' menuList__item--disabled' : ''}" id=${elm.id}>
+                        <div class="menuList__item__thumnail">
+                            <img src=${elm.image}></img>
+                        </div>
                         <div class="menuList__item__name">${elm.name}</div>
                         <div class="menuList__item__price">${elm.price}</div>
                     </div>

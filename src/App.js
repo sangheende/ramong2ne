@@ -16,14 +16,14 @@ export default function App($app) {
         allMenu: [] // 전체 메뉴 데이터
     };
 
-    let today = new Date()
-
     //헤더 및 검색기능
     const header = new Header({
         $app,initialState:{sortBy:this.state.sortBy,searchMenu:this.state.searchMenu},
 
         //헤더의 검색값
         headerSearchChange : async(searchMenu) => {
+
+            let allMenu = this.state.allMenu;
 
             const menuName = await request(0, this.state.category, this.state.sortBy, searchMenu);
             // 검색값이 MenuList에 반영되도록
@@ -54,7 +54,9 @@ export default function App($app) {
         handleCategory: async (category) => {
             let categoryName = category.replace(/^[^ ]+ /, '');
             let allMenu = this.state.allMenu;
+
             let categoryMenu;
+
             if(categoryName === "전체"){
                 categoryMenu = allMenu;
             } else if(categoryName === "계절메뉴"){
@@ -62,6 +64,7 @@ export default function App($app) {
             }else{
                 categoryMenu = allMenu.filter(elm => elm.category.includes(categoryName));
             }
+
             this.setState({
                 ...this.state,
                 startIdx: 0,

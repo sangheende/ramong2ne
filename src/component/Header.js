@@ -20,11 +20,11 @@ export default function Header({$app, initialState, headerSearchChange}) {
           </button>
         </div>
         <div class="header__search">
-        <div class="header__search__input">
-        <i data-feather="search" class="header__search__input--icon"></i>
-        <input class="header__search__input--input" type="text" placeholder="검색어를 입력하세요" />
-        </div>
-        <button class="header__search__closeBtn">취소</button>
+            <div class="header__search__input">
+            <i data-feather="search" class="header__search__input--icon"></i>
+            <input class="header__search__input--input" type="text" placeholder="검색어를 입력하세요" />
+            </div>
+            <button class="header__search__closeBtn">취소</button>
         </div>
         `;
         return temp;

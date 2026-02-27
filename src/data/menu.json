@@ -57,7 +57,7 @@
     },
     {
       "id":6,
-      "name": "꽃설기",
+      "name": "꽃설기(3가지 맛)",
       "price": "7000",
       "category": "떡 / 빵",
       "image": "https://images.unsplash.com/photo-1597629008285-a10132d20913?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8JUVDJUI5JTk4JUVDJTk1JTk5JUVCJUE3JTg4JUVDJTlEJUI0fGVufDB8fDB8fHwy",
@@ -68,7 +68,7 @@
     },
     {
       "id":7,
-      "name": "오란다",
+      "name": "오란다(4가지 맛)",
       "price": "2000",
       "category": "구움과자",
       "image": "https://images.unsplash.com/photo-1597629008285-a10132d20913?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8JUVDJUI5JTk4JUVDJTk1JTk5JUVCJUE3JTg4JUVDJTlEJUI0fGVufDB8fDB8fHwy",
@@ -80,7 +80,7 @@
     },
     {
       "id":8,
-      "name": "수제 양갱",
+      "name": "수제 양갱(8가지 맛)",
       "price": ["2000","미니-1500"],
       "category": "구움과자",
       "image": "https://images.unsplash.com/photo-1597629008285-a10132d20913?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8JUVDJUI5JTk4JUVDJTk1JTk5JUVCJUE3JTg4JUVDJTlEJUI0fGVufDB8fDB8fHwy",
@@ -91,7 +91,7 @@
     },
     {
       "id":9,
-      "name": "한입쌀쿠키",
+      "name": "한입쌀쿠키(5가지 맛)",
       "price": "3000 ~",
       "category": "구움과자",
       "image": "https://images.unsplash.com/photo-1597629008285-a10132d20913?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8JUVDJUI5JTk4JUVDJTk1JTk5JUVCJUE3JTg4JUVDJTlEJUI0fGVufDB8fDB8fHwy",
@@ -125,7 +125,7 @@
     },
     {
       "id":12,
-      "name": "하트설기",
+      "name": "하트설기(3가지 맛)",
       "price": 2500,
       "category": "떡 / 빵",
       "image": "https://images.unsplash.com/photo-1597629008285-a10132d20913?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8JUVDJUI5JTk4JUVDJTk1JTk5JUVCJUE3JTg4JUVDJTlEJUI0fGVufDB8fDB8fHwy",
@@ -168,8 +168,19 @@
       }
     },
     {
+      "id":15,
+      "name": "12띠 송편",
+      "price": ["개별-1000","30000"],
+      "category": "떡 / 빵",
+      "image": "https://images.unsplash.com/photo-1597629008285-a10132d20913?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8JUVDJUI5JTk4JUVDJTk1JTk5JUVCJUE3JTg4JUVDJTlEJUI0fGVufDB8fDB8fHwy",
+      "info": {
+        "desc": "십이지 동물을 귀뎝게 표현한 캐릭터 송편입니다.",
+        "use":["답례품","감사선물","전통간식","가벼운선물"]
+      }
+    },
+    {
       "id":16,
-      "name": "조각설기",
+      "name": "조각설기(3가지 맛)",
       "price": 30000,
       "category": "떡 / 빵",
       "image": "https://images.unsplash.com/photo-1597629008285-a10132d20913?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8JUVDJUI5JTk4JUVDJTk1JTk5JUVCJUE3JTg4JUVDJTlEJUI0fGVufDB8fDB8fHwy",
@@ -204,7 +215,7 @@
     },
     {
       "id":19,
-      "name": "인절미",
+      "name": "인절미(3가지 맛)",
       "price": 15000,
       "category": "떡 / 빵",
       "image": "https://images.unsplash.com/photo-1597629008285-a10132d20913?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8JUVDJUI5JTk4JUVDJTk1JTk5JUVCJUE3JTg4JUVDJTlEJUI0fGVufDB8fDB8fHwy",
@@ -216,7 +227,7 @@
     },
     {
       "id":20,
-      "name": "쌀술빵",
+      "name": "쌀술빵(4가지맛)",
       "price": 2500,
       "category": "빵",
       "image": "https://images.unsplash.com/photo-1597629008285-a10132d20913?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8JUVDJUI5JTk4JUVDJTk1JTk5JUVCJUE3JTg4JUVDJTlEJUI0fGVufDB8fDB8fHwy",
