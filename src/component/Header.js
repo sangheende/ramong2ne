@@ -9,6 +9,8 @@ export default function Header({$app, initialState, headerSearchChange}) {
     
     //header 구조
     this.template = () => {
+
+       
         let temp = `
         <div class="header__content">
           <i data-feather="menu"></i>
@@ -32,6 +34,7 @@ export default function Header({$app, initialState, headerSearchChange}) {
 
     this.render = () => {
         this.$target.innerHTML = this.template();
+        
 
         const searchInput = this.$target.querySelector('.header__search__input--input');
         if (searchInput) {
@@ -46,5 +49,8 @@ export default function Header({$app, initialState, headerSearchChange}) {
     this.setState = (newState) => {
         this.state = newState;
         this.render();
+
+
+        console.log('Header setState 호출', newState);
     }
 }

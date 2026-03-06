@@ -112,7 +112,7 @@ button {
   margin-bottom: 20px;
   padding: 4px 18px 10px;
   border-bottom: 1px solid var(--light-gray);
-  overflow: scroll;
+  overflow: auto;
 }
 .category__list {
   width: -moz-max-content;
@@ -141,8 +141,8 @@ button {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(195px, 1fr)); /* Responsive grid */
   row-gap: 12px; /* 상하 여백 */
-  -moz-column-gap: 6px;
-       column-gap: 6px; /* 좌우 여백 */
+  -moz-column-gap: 8px;
+       column-gap: 8px; /* 좌우 여백 */
   color: var(--gray);
   margin-bottom: 40px;
 }
@@ -167,13 +167,13 @@ button {
   transition: transform 0.3s ease; /* 호버시 이미지 확대 효과 */
 }
 .menuList__item__name {
-  padding-left: 18px;
+  padding-left: 10px;
   font-size: var(--fs16);
   line-height: 24px;
   color: var(--gray);
 }
 .menuList__item__price {
-  padding-left: 18px;
+  padding-left: 10px;
   font-size: var(--fs22);
   font-weight: 600;
   line-height: 28px;

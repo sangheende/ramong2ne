@@ -1,7 +1,8 @@
-export default function MenuList({$app, initialState}) {
+export default function MenuList({$app, initialState, handleMenuClick}) {
     this.state = initialState;
     this.$target = document.createElement('div');
     this.$target.className = 'menuList';
+    this.handleMenuClick = handleMenuClick;
 
     $app.appendChild(this.$target);
 
@@ -56,10 +57,18 @@ export default function MenuList({$app, initialState}) {
 
     this.render = () => {
         this.$target.innerHTML = this.template();
+        let menuItems = this.$target.querySelectorAll('.menuList__item');
+        menuItems.forEach((item) => {
+            item.addEventListener('click', (e) => {
+                this.handleMenuClick(e.currentTarget.id);
+            })
+        })
     }
 
     this.setState = (newState) => {
         this.state = newState;
         this.render();
+
+        console.log('MenuList setState 호출', newState);
     }
 }

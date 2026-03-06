@@ -31,32 +31,33 @@ export default function Category({$app, initialState, handleCategory}) {
         return temp + '</div>';
     };
     
+     // 이벤트 위임: 최초 1회만 등록
+    this.$target.addEventListener('click', (e) => {
+        const item = e.target.closest('.category__item');
+        if (item) {
+            const idx = Array.from(this.$target.querySelectorAll('.category__item')).indexOf(item);
+            if (idx !== -1) {
+                this.setState({ selectedIdx: idx });
+                if (this.handleCategory) {
+                    this.handleCategory(categoryList[idx]);
+                }
+            }
+        }
+    });
+
     this.render = () => {
         this.$target.innerHTML = this.template();
-        
-        let categoryItems = this.$target.querySelectorAll('.category__item');
-        
-        categoryItems.forEach((elm) => {
-            
-            elm.addEventListener('click', (e) => {
-                console.log(categoryList.indexOf(e.target.textContent))
-                if(this.handleCategory){
-                    this.setState({
-                        selectedIdx : categoryList.indexOf(e.target.textContent)
-                    })
-                    this.handleCategory(e.target.textContent)
-
-                }
-            });
-        });
     };
             
     this.setState = (newState) => {
         this.state = {
-        ...this.state,
-        ...newState
-    };
+            ...this.state,
+            ...newState
+        };
         this.render()
+
+
+        console.log('카테고리 setState 호출', newState);
     };
 
     // this.render()
