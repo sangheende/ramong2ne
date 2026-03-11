@@ -1,5 +1,5 @@
 import jsonData from './data/menu.json' with{type: 'json'};
-const currentUrl = window.location.href;//url 가져오기
+const currentUrl = 'http://127.0.0.1:5500/';//url 가져오기
 const Data = jsonData;
 
 export const request = async (startIdx,sortBy,searchMenu,category,menuName)=>{
@@ -20,10 +20,9 @@ export const request = async (startIdx,sortBy,searchMenu,category,menuName)=>{
             if(searchMenu){
                 url += `&search=${searchMenu}`;
             }
+
             return Data;
         }
-
-        const response = await fetch(url);
         
     } catch (error) {
         console.log('error')
@@ -33,11 +32,12 @@ export const request = async (startIdx,sortBy,searchMenu,category,menuName)=>{
 
 export const requestMenuDetail = async (menuId) => {
     try {
-        const response = await fetch(`${currentUrl}menu/${menuId}`);
-        if (response) {
-            let data = await response.json();
-            console.log(data);
-            return data;
+        let url = `${currentUrl}menu/${menuId}`;
+        if(Data.menu){
+            const menuDetailData = Data.menu.find(elm => elm.id === parseInt(menuId));
+            console.log(menuDetailData);
+
+            return menuDetailData;
         }
     } catch (error) {
         console.log('error')

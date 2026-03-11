@@ -4,7 +4,7 @@ export default function MenuList({$app, initialState, handleMenuClick}) {
     this.$target.className = 'menuList';
     this.handleMenuClick = handleMenuClick;
 
-    $app.appendChild(this.$target);
+    // $app.appendChild(this.$target);
 
     let today = new Date();
     let month = today.getMonth() + 1;

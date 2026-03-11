@@ -7,9 +7,6 @@ import {request, requestMenuDetail} from './api.js'
 
 export default function App($app) {
 
-
-
-
     this.state = {
         startIdx : 0,//몇번째 메뉴부터 불러올지
         sortBy : '',//정렬 기준
@@ -24,7 +21,7 @@ export default function App($app) {
     // 컴포넌트 인스턴스 1회만 생성
     const header = new Header({
         $app,
-        initialState: { sortBy: this.state.sortBy, searchMenu: this.state.searchMenu },
+        initialState: { sortBy: this.state.sortBy, searchMenu: this.state.searchMenu, currentPage: this.state.currentPage },
         headerSearchChange: async (searchMenu) => {
             let allMenu = this.state.allMenu;
             history.pushState(null, null, `/전체?search=${searchMenu}`);
@@ -77,38 +74,42 @@ export default function App($app) {
                 ...this.state,
                 currentPage: `menu/${menuId}`
             })
-
-            console.log(menuId);
         }
     });
 
     //세부 메뉴
     const menuDetail = new MenuDetail({
-        renderMenuDetail : async (menuId) => {
-            try {
-                const menuDetailData = await requestMenuDetail(menuId);
-                new MenuDetail({ $app, initialState: menuDetailData });
-            } catch (error) {
-                console.log(error);
-            }
-        },
+       $app, 
+       initialState: {currentPage: this.state.currentPage},
+        renderMenuDetail: async (id) => {
+            const menuId = id.split('/')[1];
+            const menuDetailData = await requestMenuDetail(menuId);
+
+            return menuDetailData;
+              
+        }
+            // const menuDetailData = await requestMenuDetail(menuId);
     });
 
 
 
     const render = () => {
         const path = this.state.currentPage;
-        // $app.innerHTML = '';
+        $app.innerHTML = '';
 
-        if (path.startsWith('/menu/')) {
-            header.setState({ sortBy: this.state.sortBy, searchMenu: this.state.searchMenu });
+        if (path.startsWith('menu/')) {
+            header.setState({ sortBy: this.state.sortBy, searchMenu: this.state.searchMenu, currentPage: this.state.currentPage });
+            menuDetail.setState({currentPage: path});
+            $app.appendChild(header.$target);
+            $app.appendChild(menuDetail.$target);
         } else {
-            header.setState({ sortBy: this.state.sortBy, searchMenu: this.state.searchMenu });
+            header.setState({ sortBy: this.state.sortBy, searchMenu: this.state.searchMenu, currentPage: this.state.currentPage });
             category.setState({ ...this.state});
             menuList.setState(this.state.menuName);
+            $app.appendChild(header.$target);
+            $app.appendChild(category.$target);
+            $app.appendChild(menuList.$target);
         }
-
-        console.log(this.state.allMenu);
     }
 
     this.setState = (newState) => {
@@ -121,15 +122,19 @@ export default function App($app) {
 
     const init = async() => {
          const path = this.state.currentPage;
-            if (! path.startsWith('/menu/')) {
+
+            if (path.startsWith('menu/')) {
+                
+
+                render();
+            }else {
                 const menuName = await request(this.state.startIdx, this.state.sortBy,this.state.searchMenu,this.state.category,this.state.menuName)
                 this.setState({
                     ...this.state,
                     allMenu: menuName.menu,
                     menuName: {menu: menuName.menu},
                 })
-
-            }else render();
+            };
     }
 
     init();

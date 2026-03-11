@@ -5,21 +5,22 @@ export default function Header({$app, initialState, headerSearchChange}) {
 
     this.headerSearchChange = headerSearchChange;
     
-    $app.appendChild(this.$target);
+    // $app.appendChild(this.$target);
     
     //header 구조
     this.template = () => {
 
-       
         let temp = `
         <div class="header__content">
-          <i data-feather="menu"></i>
-          <div class="header__content__title">
-            <a href="index.html">라몽이네 뚝떡공방</a>
-          </div>
-          <button class="header__content__btn" type="button">
-          <i data-feather="search"></i>
-          </button>
+            <div class="header__content__func">
+                <i data-feather="${this.state.currentPage.startsWith('menu/') ? 'arrow-left' : 'menu'}"></i>
+            </div>
+            <div class="header__content__title">
+                <a href="/index.html">라몽이네 뚝떡공방</a>
+            </div>
+            <button class="header__content__btn" type="button">
+            <i data-feather="search"></i>
+            </button>
         </div>
         <div class="header__search">
             <div class="header__search__input">
@@ -29,6 +30,7 @@ export default function Header({$app, initialState, headerSearchChange}) {
             <button class="header__search__closeBtn">취소</button>
         </div>
         `;
+          
         return temp;
     };
 

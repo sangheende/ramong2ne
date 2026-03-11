@@ -9,7 +9,7 @@ export default function Category({$app, initialState, handleCategory}) {
 
     this.handleCategory = handleCategory;
 
-    $app.appendChild(this.$target);
+    // $app.appendChild(this.$target);
 
     let categoryList = [
         '전체',

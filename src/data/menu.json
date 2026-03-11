@@ -8,7 +8,10 @@
       "image": "https://images.unsplash.com/photo-1597629008285-a10132d20913?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8JUVDJUI5JTk4JUVDJTk1JTk5JUVCJUE3JTg4JUVDJTlEJUI0fGVufDB8fDB8fHwy",
       "info": {
         "desc": "풍성한 호두와 진한 시럽이 어우러진 깊고 묵직한 풍미의 파이입니다. 묵직하고 균형잡힌 단맛이 특징입니다.",
-        "use":["답례품","감사선물","가벼운선물"]
+        "use":"선물용 및 티타임 간식으로 추천",
+        "custody":"밀봉 후 냉동보관",
+        "storage":"상온 보관 시 1~2일, 냉동 보관 시 1달 이내 섭취",
+        "warning": "- 호두, 밀, 버터 함유"
       }
     },
     {
@@ -19,7 +22,10 @@
       "image": "https://images.unsplash.com/photo-1597629008285-a10132d20913?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8JUVDJUI5JTk4JUVDJTk1JTk5JUVCJUE3JTg4JUVDJTlEJUI0fGVufDB8fDB8fHwy",
       "info": {
         "desc": "달콤한 대추를 담아 깊은 품이를 완성한 약밥입니다. 전통의 맛을 현대적으로 풀어낸 프리미엄 디저트입니다.",
-        "use":["답례품","감사선물","가벼운선물","건강간식"]
+        "use":"답례품 및 감사선물 또는 어르신 간식 용도",
+        "custody":"밀봉 후 즉시 냉동보관",
+        "storage":"즉시 섭취 권장, 냉동 보관시 3달 이내",
+        "warning": "- 대추, 견과류 함유"
       }
     },
     {
@@ -30,7 +36,10 @@
       "image": "https://images.unsplash.com/photo-1597629008285-a10132d20913?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8JUVDJUI5JTk4JUVDJTk1JTk5JUVCJUE3JTg4JUVDJTlEJUI0fGVufDB8fDB8fHwy",
       "info": {
         "desc": "상큼한 금귤 향과 맑은 단맛이 조화를 이루는 전통 정과입니다. 산뜻하면서도 품위 있는 풍미가 특징입니다",
-        "use":["답례품","감사선물","프리미엄선물","전통간식"]
+        "use":"답례품 및 감사선물 또는 어르신 간식 용도",
+        "custody":"밀봉 후 즉시 냉장보관 권장",
+        "storage":"냉장 보관시 1~2개월, 냉동 보관시 3~6개월 이내",
+        "warning": "- 금귤 함유"
       }
     },
     {
@@ -41,7 +50,10 @@
       "image": "https://images.unsplash.com/photo-1597629008285-a10132d20913?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8JUVDJUI5JTk4JUVDJTk1JTk5JUVCJUE3JTg4JUVDJTlEJUI0fGVufDB8fDB8fHwy",
       "info": {
         "desc": "건강을 생각하며 도라지 특유의 향을 살리고 절제된 단맛으로 완성한 전통 정과입니다. 차와 함께 곁들이기 좋은 고급 간식입니다",
-        "use":["답례품","감사선물","프리미엄선물","전통간식"]
+        "use":"답례품 및 감사선물 또는 어르신 간식 용도",
+        "custody":"밀봉 후 즉시 냉동보관",
+        "storage":"냉동 보관 시 4~6개월, 냉장 보관 시 2~4주 이내",
+        "warning": "- 도라지 함유"
       }
     },
     {
@@ -52,7 +64,11 @@
       "image": "https://images.unsplash.com/photo-1597629008285-a10132d20913?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8JUVDJUI5JTk4JUVDJTk1JTk5JUVCJUE3JTg4JUVDJTlEJUI0fGVufDB8fDB8fHwy",
       "info": {
         "desc": "호두를 정성스럽게 졸여 고소함을 갚게 끌어올린 프리미엄 정과입니다. 격식 있는 선물로도 손색없는 메뉴입니다.",
-        "use":["답례품","감사선물","프리미엄선물","전통간식"]
+        "use":"답례품 및 감사선물 또는 어르신 간식 용도",
+        "custody":"서늘한 실온 또는 냉동 보관",
+        "storage":"실온 보관 시 2~3주, 냉동 보관 시 3개월 이내",
+        "taste": ["기본", "단호박", "흑임자"],
+        "warning": "- 호두 함유"
       }
     },
     {
@@ -63,7 +79,11 @@
       "image": "https://images.unsplash.com/photo-1597629008285-a10132d20913?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8JUVDJUI5JTk4JUVDJTk1JTk5JUVCJUE3JTg4JUVDJTlEJUI0fGVufDB8fDB8fHwy",
       "info": {
         "desc": "부드럽게 쪄낸 설기를 꽃 형태로 빚어낸 프리미엄 설기입니다. 단아한 형태와 절제된 단맛이 돋보이는 고급 답례용 떡입니다.",
-        "use":["답례품","감사선물","프리미엄선물","전통간식"]
+        "use":"답례품 및 감사선물 또는 어르신 간식 용도",
+        "custody":"밀봉 후 즉시 냉동보관",
+        "storage":"즉시 섭취 권장, 냉동 보관시 2달 이내",
+        "taste": ["기본", "단호박", "흑임자"],
+        "warning": "- 쌀 함유"
       }
     },
     {
@@ -74,8 +94,11 @@
       "image": "https://images.unsplash.com/photo-1597629008285-a10132d20913?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8JUVDJUI5JTk4JUVDJTk1JTk5JUVCJUE3JTg4JUVDJTlEJUI0fGVufDB8fDB8fHwy",
       "info": {
         "desc": "바삭한 곡물과 조청의 깊은 단맛이 어우러진 전통간식입니다. 담백하면서도 정겨운 품미가 인상적인 메뉴입니다",
-        "use":["답례품","감사선물","어린이간식","전통간식"],
-        "taste":["기본","견과","검은깨","감태"]
+        "use":"답례품 및 감사선물 또는 어르신 간식 용도",
+        "custody":"서늘하고 건조한 곳에 밀봉하여 보관",
+        "storage":"실온 보관 시 1~2주, 냉동 보관시 1~2개월 이내",
+        "taste": ["기본", "단호박", "흑임자"],
+        "warning": "- 호두 함유"
       }
     },
     {
@@ -86,7 +109,11 @@
       "image": "https://images.unsplash.com/photo-1597629008285-a10132d20913?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8JUVDJUI5JTk4JUVDJTk1JTk5JUVCJUE3JTg4JUVDJTlEJUI0fGVufDB8fDB8fHwy",
       "info": {
         "desc": "팥, 흑임자, 호지차, 군고구마 등 다양한 풍미로 구성된 프리미엄 수제 양갱입니다. 매끄러운 식감과 절제된 단맛이 어우러진 고급 디저트입니다.",
-        "use":["답례품","감사선물","프리미엄선물","전통간식"]
+        "use":"답례품 및 감사선물 또는 티타임 간식 용도",
+        "custody":"수령 즉시 냉장 보관",
+        "storage":"냉장 보관 시 10~15일, 냉동 보관 시 1달 이내",
+        "taste": ["팥", "흑임자", "단호박", "고구마", "호지차", "망고", "산딸기", "피스타치오", "열대과일", "복숭아"],
+        "warning": "- 호두 함유"
       }
     },
     {
@@ -97,8 +124,11 @@
       "image": "https://images.unsplash.com/photo-1597629008285-a10132d20913?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8JUVDJUI5JTk4JUVDJTk1JTk5JUVCJUE3JTg4JUVDJTlEJUI0fGVufDB8fDB8fHwy",
       "info": {
         "desc": "쌀가루를 이용해 고소함과 바삭함을 살린 수제 쿠키입니다. 가볍게 즐기기 좋은 간식입니다",
-        "use":["답례품","감사선물","가벼운선물","어린이간식"],
-        "taste":["초코칩","라즈베리","초코","황치즈"]
+        "use":"답례품 및 감사선물 또는 어린이 간식 용도",
+        "custody":"밀봉 후 냉동보관",
+        "storage":"실온 보관시 1주, 냉동 보관시 1달 이내",
+        "taste": ["기본", "단호박", "흑임자"],
+        "warning": "- 호두 함유"
       }
     },
     {
@@ -109,7 +139,10 @@
       "image": "https://images.unsplash.com/photo-1597629008285-a10132d20913?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8JUVDJUI5JTk4JUVDJTk1JTk5JUVCJUE3JTg4JUVDJTlEJUI0fGVufDB8fDB8fHwy",
       "info": {
         "desc": "한 조각 수박을 닮은 형태로 정성스럽게 쪄낸 떡입니다. 쫀득한 식감과 절제된 단맛으로 여름의 순간을 느껴보세요.",
-        "use":["답례품","감사선물","어린이간식","가벼운선물"]
+        "use":"답례품 및 감사선물 또는 어르신 간식 용도",
+        "custody":"밀봉 후 즉시 냉동보관",
+        "storage":"즉시 섭취 권장, 냉동 보관시 2달 이내",
+        "warning": "- 호두 함유"
       }
     },
     {
@@ -120,7 +153,11 @@
       "image": "https://images.unsplash.com/photo-1597629008285-a10132d20913?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8JUVDJUI5JTk4JUVDJTk1JTk5JUVCJUE3JTg4JUVDJTlEJUI0fGVufDB8fDB8fHwy",
       "info": {
         "desc": "귀여운 모양과 알록달록한 색의 떡피 속 달콤한 앙금을 담아 맛과 비주얼을 모두 즐길 수 있는 떡입니다. 부담없이 즐기기 좋은 디저트입니다.",
-        "use":["답례품","감사선물","어린이간식","가벼운선물","전통간식"]
+        "use":"답례품 및 감사선물 또는 어르신 간식 용도",
+        "custody":"밀봉 후 즉시 냉동보관",
+        "storage":"즉시 섭취 권장, 냉동 보관시 2달 이내",
+        "taste": ["기본", "단호박", "흑임자"],
+        "warning": "- 호두 함유"
       }
     },
     {
@@ -131,7 +168,11 @@
       "image": "https://images.unsplash.com/photo-1597629008285-a10132d20913?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8JUVDJUI5JTk4JUVDJTk1JTk5JUVCJUE3JTg4JUVDJTlEJUI0fGVufDB8fDB8fHwy",
       "info": {
         "desc": "정갈한 설기를 사랑스러운 하트모양으로 빚어낸 설기입니다. 담백한 풍미로 감사와 사랑의 마음을 전하기 좋은 떡입니다.",
-        "use":["답례품","감사선물","어린이간식","가벼운선물"]
+        "use":"답례품 및 감사선물 또는 어르신 간식 용도",
+        "custody":"밀봉 후 즉시 냉동보관",
+        "storage":"즉시 섭취 권장, 냉동 보관시 2달 이내",
+        "taste": ["기본", "단호박", "흑임자"],
+        "warning": "- 호두 함유"
       }
     },
     {
@@ -142,7 +183,11 @@
       "image": "https://images.unsplash.com/photo-1597629008285-a10132d20913?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8JUVDJUI5JTk4JUVDJTk1JTk5JUVCJUE3JTg4JUVDJTlEJUI0fGVufDB8fDB8fHwy",
       "info": {
         "desc": "촉촉한 설기를 정갈하게 쌓아 올려 담백한 단맛을 살린 전통 케이크입니다. 부담없이 즐기명서도 격식을 갖춘 자리에 어울리는 메뉴입니다.",
-        "use":["답례품","감사선물","어린이간식","가벼운선물"]
+        "use":"행사 답례 및 부모님 생신 케이크",
+        "custody":"밀봉 후 즉시 냉동보관",
+        "storage":"즉시 섭취 권장, 냉동 보관시 2달 이내",
+        "taste": ["기본", "단호박", "흑임자"],
+        "warning": "- 호두 함유"
       }
     },
     {
@@ -153,7 +198,11 @@
       "image": "https://images.unsplash.com/photo-1597629008285-a10132d20913?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8JUVDJUI5JTk4JUVDJTk1JTk5JUVCJUE3JTg4JUVDJTlEJUI0fGVufDB8fDB8fHwy",
       "info": {
         "desc": "구수한 수수와 달콤한 팥이 어우러진 전통 떡입니다. 담백하면서도 깊은 맛으로 전통의 풍미를 느낄 수 있는 메뉴입니다.",
-        "use":["답례품","감사선물","전통간식","돌잔치"]
+        "use":"백일, 돌 등 어린이 생일상",
+        "custody":"밀봉 후 즉시 냉동보관",
+        "storage":"즉시 섭취 권장, 냉동 보관시 2달 이내",
+        "taste": ["기본", "단호박", "흑임자"],
+        "warning": "- 호두 함유"
       }
     },
     {
@@ -164,7 +213,10 @@
       "image": "https://images.unsplash.com/photo-1597629008285-a10132d20913?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8JUVDJUI5JTk4JUVDJTk1JTk5JUVCJUE3JTg4JUVDJTlEJUI0fGVufDB8fDB8fHwy",
       "info": {
         "desc": "고소한 꺠소와 쫀득한 떡의 조화가 돋보이는 전통 송편입니다. 전통의 깊은 맛을 담아 격식있는 자리에 어울립니다.",
-        "use":["답례품","감사선물","전통간식","가벼운선물"]
+        "use":"답례품 및 감사선물 또는 어르신 간식 용도",
+        "custody":"밀봉 후 즉시 냉동보관",
+        "storage":"즉시 섭취 권장, 냉동 보관시 2달 이내",
+        "warning": "- 호두 함유"
       }
     },
     {
@@ -174,8 +226,12 @@
       "category": "떡 / 빵",
       "image": "https://images.unsplash.com/photo-1597629008285-a10132d20913?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8JUVDJUI5JTk4JUVDJTk1JTk5JUVCJUE3JTg4JUVDJTlEJUI0fGVufDB8fDB8fHwy",
       "info": {
-        "desc": "십이지 동물을 귀뎝게 표현한 캐릭터 송편입니다.",
-        "use":["답례품","감사선물","전통간식","가벼운선물"]
+        "desc": "십이지 동물을 귀엽게 표현한 캐릭터 송편입니다.",
+        "use":"답례품 및 감사선물 또는 어린이 생일 답례용",
+        "custody":"밀봉 후 즉시 냉동보관",
+        "storage":"즉시 섭취 권장, 냉동 보관시 2달 이내",
+        "taste": ["기본", "단호박", "흑임자"],
+        "warning": "- 호두 함유"
       }
     },
     {
@@ -186,7 +242,11 @@
       "image": "https://images.unsplash.com/photo-1597629008285-a10132d20913?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8JUVDJUI5JTk4JUVDJTk1JTk5JUVCJUE3JTg4JUVDJTlEJUI0fGVufDB8fDB8fHwy",
       "info": {
         "desc": "부드럽고 포슬한 식감이 살아있는 백설기입니다",
-        "use":["답례품","감사선물","전통간식","돌잔치"]
+        "use":"답례품 및 감사선물 또는 어르신 간식 용도",
+        "custody":"밀봉 후 즉시 냉동보관",
+        "storage":"즉시 섭취 권장, 냉동 보관시 2달 이내",
+        "taste": ["기본", "단호박", "흑임자"],
+        "warning": "- 호두 함유"
       }
     },
     {
@@ -197,8 +257,11 @@
       "image": "https://images.unsplash.com/photo-1597629008285-a10132d20913?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8JUVDJUI5JTk4JUVDJTk1JTk5JUVCJUE3JTg4JUVDJTlEJUI0fGVufDB8fDB8fHwy",
       "info": {
         "desc": "설기와 팥을 켜켜히 쌓아 올려 정성슬헙게 쪄낸 정통 떡입니다. 차분한 단맛과 포근한 식감이 돋보입니다.",
-        "use":["답례품","감사선물","가벼운선물","수능"],
-        "taste":["복숭아","밤","토마토","청사과","배","감","망고"]
+        "use":"이사, 고사, 개업 등 중요한 날 답례용",
+        "custody":"밀봉 후 즉시 냉동보관",
+        "storage":"즉시 섭취 권장, 냉동 보관시 2달 이내",
+        "taste": ["기본", "단호박", "흑임자"],
+        "warning": "- 호두 함유"
       }
     },
     {
@@ -209,7 +272,10 @@
       "image": "https://images.unsplash.com/photo-1597629008285-a10132d20913?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8JUVDJUI5JTk4JUVDJTk1JTk5JUVCJUE3JTg4JUVDJTlEJUI0fGVufDB8fDB8fHwy",
       "info": {
         "desc": "신선한 생딸기와 쫀득한 떡이 조화를 이루는 계절 한정 떡입니다. 상큼함과 달콤함이 균형을 이루는 메뉴입니다.",
-        "use":["답례품","감사선물","가벼운선물","어린이간식"],
+        "use":"답례품 및 감사선물 또는 어르신 간식 용도",
+        "custody":"밀봉 후 즉시 냉장보관",
+        "storage":"즉시 섭취 권장, 냉장 보관시 3일 이내",
+        "warning": "- 호두 함유",
         "season":["spring","winter"]
       }
     },
@@ -221,8 +287,11 @@
       "image": "https://images.unsplash.com/photo-1597629008285-a10132d20913?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8JUVDJUI5JTk4JUVDJTk1JTk5JUVCJUE3JTg4JUVDJTlEJUI0fGVufDB8fDB8fHwy",
       "info": {
         "desc": "곱게 묻힌 콩가루의 고소함과 부드러운 떡의 식감이 어우러진 전통 떡입니다. 절제된 단맛으로 오레도록 사랑받는 메뉴입니다.",
-        "use":["답례품","감사선물","가벼운선물","전통간식"],
-        "taste":["기본","단호박"]
+        "use":"답례품 및 감사선물 또는 어르신 간식 용도",
+        "custody":"밀봉 후 즉시 냉동보관",
+        "storage":"즉시 섭취 권장, 냉동 보관시 2달 이내",
+        "taste": ["기본", "단호박", "흑임자"],
+        "warning": "- 호두 함유"
       }
     },
     {
@@ -233,8 +302,11 @@
       "image": "https://images.unsplash.com/photo-1597629008285-a10132d20913?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8JUVDJUI5JTk4JUVDJTk1JTk5JUVCJUE3JTg4JUVDJTlEJUI0fGVufDB8fDB8fHwy",
       "info": {
         "desc": "은은한 누룩향과 쌀의 담백함이 어우러진 전통 발효빵입니다. 부드럽고ㅗ 촉촉한 식감이 매력적인 메뉴입니다.",
-        "use":["답례품","감사선물","가벼운선물","전통간식","어린이간식"],
-        "taste":["기본","단호박","흑임자","쑥","딸기"]
+        "use":"답례품 및 감사선물 또는 어르신 간식 용도",
+        "custody":"밀봉 후 즉시 냉동보관",
+        "storage":"즉시 섭취 권장, 냉동 보관시 1달 이내",
+        "taste": ["기본", "단호박", "흑임자","쑥"],
+        "warning": "- 호두 함유"
       }
     },
     {
@@ -245,7 +317,10 @@
       "image": "https://images.unsplash.com/photo-1597629008285-a10132d20913?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8JUVDJUI5JTk4JUVDJTk1JTk5JUVCJUE3JTg4JUVDJTlEJUI0fGVufDB8fDB8fHwy",
       "info": {
         "desc": "달콤한 고구마의 깊은 풍미를 담아 부드럽게 완성한 프리미엄 빵입니다. 따듯한 차와 잘 어울리는 디저트입니다.",
-        "use":["답례품","감사선물","가벼운선물","어린이간식"],
+        "use":"답례품 및 감사선물 또는 간식 용도",
+        "custody":"밀봉 후 즉시 냉동보관",
+        "storage":"즉시 섭취 권장, 냉동 보관시 2달 이내",
+        "warning": "- 호두 함유",
         "season":["fall","winter"]
       }
     },
@@ -257,7 +332,10 @@
       "image": "https://images.unsplash.com/photo-1597629008285-a10132d20913?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8JUVDJUI5JTk4JUVDJTk1JTk5JUVCJUE3JTg4JUVDJTlEJUI0fGVufDB8fDB8fHwy",
       "info": {
         "desc": "포슬한 감자와 쫀득한 식감이 어우러진 빵입니다. 갓 캔 감자같은 모습과 은은한 단맛이 여운을 남기는 메뉴입니다.",
-        "use":["답례품","감사선물","가벼운선물","어린이간식"],
+       "use":"답례품 및 감사선물 또는 간식 용도",
+        "custody":"밀봉 후 즉시 냉동보관",
+        "storage":"즉시 섭취 권장, 냉동 보관시 2달 이내",
+        "warning": "- 호두 함유",
         "season":["summer","fall"]
       }
     },
@@ -269,7 +347,11 @@
       "image": "https://images.unsplash.com/photo-1597629008285-a10132d20913?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8JUVDJUI5JTk4JUVDJTk1JTk5JUVCJUE3JTg4JUVDJTlEJUI0fGVufDB8fDB8fHwy",
       "info": {
         "desc": "포슬한 설기 위헤 절편으로 만든 수공예 꽃 장식을 더해 전통의 품격을 현대적으로 재해석한 케이크입니다. 격식있는 자리에 어울리는 특별한 메뉴입니다.",
-        "use":["케이크","생일케이크","축하케이크"]
+        "use":"부모님 생신 케이크 또는 특별한 날 기념 케이크",
+        "custody":"밀봉 후 즉시 냉동보관",
+        "storage":"즉시 섭취 권장, 냉동 보관시 2달 이내",
+        "taste": ["기본", "단호박", "흑임자"],
+        "warning": "- 호두 함유"
       }
     },
     {
@@ -280,7 +362,11 @@
       "image": "https://images.unsplash.com/photo-1597629008285-a10132d20913?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8JUVDJUI5JTk4JUVDJTk1JTk5JUVCJUE3JTg4JUVDJTlEJUI0fGVufDB8fDB8fHwy",
       "info": {
         "desc": "복과 번영의 상징을 담아 정성스럽게 완성한 프리미엄 떡 케이크입니다. 소중한 기념일에 의미를 더하는 특별한 선택입니다.",
-        "use":["케이크","고사케이크","축하케이크"]
+       "use":"고사, 개업 등 중요한 날 기념 케이크",
+        "custody":"밀봉 후 즉시 냉동보관",
+        "storage":"즉시 섭취 권장, 냉동 보관시 2달 이내",
+        "taste": ["기본", "단호박", "흑임자"],
+        "warning": "- 호두 함유"
       }
     },
     {
@@ -291,7 +377,11 @@
       "image": "https://images.unsplash.com/photo-1597629008285-a10132d20913?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8JUVDJUI5JTk4JUVDJTk1JTk5JUVCJUE3JTg4JUVDJTlEJUI0fGVufDB8fDB8fHwy",
       "info": {
         "desc": "십이지 동물을 귀뎝게 표현한 맞춤제작 케이크입니다. 탄생과 성장의 의미를 담아 특별한 날을 기념하는 프리미엄 떡 케이크입니다. ",
-        "use":["케이크","생일케이크","축하케이크"]
+        "use":"어린이 생일 케이크 또는 특별한 날 기념 케이크",
+        "custody":"밀봉 후 즉시 냉동보관",
+        "storage":"즉시 섭취 권장, 냉동 보관시 2달 이내",
+        "taste": ["기본", "단호박", "흑임자"],
+        "warning": "- 호두 함유"
       }
     }
   ],
