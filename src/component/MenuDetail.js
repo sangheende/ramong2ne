@@ -7,7 +7,7 @@ export default function MenuDetail({$app,initialState , renderMenuDetail}) {
     // $app.appendChild(this.$target);
     this.template = async () => {
         let menuData = await this.renderMenuDetail(this.state.currentPage);
-        
+        const priceWithComma = Number(menuData.price).toLocaleString();
         let taste = menuData.info.taste? menuData.info.taste.map((item)=> {
             return `
 <div class="menuDetail__taste__item">
@@ -24,7 +24,7 @@ export default function MenuDetail({$app,initialState , renderMenuDetail}) {
             <div class="menuDetail__item__content">
                 <div class="menuDetail__item__title">
                     <h2 class="menuDetail__item__title--name">${menuData.name}</h2>
-                    <p class="menuDetail__item__title--price">${menuData.price}</p>
+                    <p class="menuDetail__item__title--price">${priceWithComma}원</p>
                 </div>        
                 <p class="menuDetail__item__desc">${menuData.info.desc}</p>
                 <div class="menuDetail__item__taste" style="display: ${menuData.info.taste? 'block' : 'none'}">
