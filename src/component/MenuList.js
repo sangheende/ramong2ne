@@ -39,14 +39,15 @@ export default function MenuList({$app, initialState, handleMenuClick}) {
         let temp = `<div class="menuList__content">`;
         if (this.state) {
             this.state.menu.forEach((elm) => {
-
+                // 가격에 3자리마다 콤마 추가
+                const priceWithComma = Number(elm.price).toLocaleString();
                 temp += `
                     <div class="menuList__item${Array.isArray(elm.info.season) && !elm.info.season.includes(seasonMenu) ? ' menuList__item--disabled' : ''}" id=${elm.id}>
                         <div class="menuList__item__thumnail">
                             <img src=${elm.image}></img>
                         </div>
                         <div class="menuList__item__name">${elm.name}</div>
-                        <div class="menuList__item__price">${elm.price}</div>
+                        <div class="menuList__item__price">${priceWithComma}원</div>
                     </div>
                `;
             });

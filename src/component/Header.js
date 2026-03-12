@@ -44,7 +44,7 @@ export default function Header({$app, initialState, headerSearchChange}) {
         //검색 버튼 클릭시 검색창 활성화
         searchBtn.addEventListener('click', (e) => {
             const searchSection = this.$target.querySelector('.header__search');
-            searchSection.classList.add('active');
+            searchSection.classList.toggle('active');
             searchInput.focus();
         })
         //취소 버튼 클릭시 검색창 비 활성화

@@ -36,9 +36,31 @@ export default function MenuDetail({$app,initialState , renderMenuDetail}) {
                     <div class="menuDetail__item__info--use"><i data-feather="thumbs-up"></i>${menuData.info.use}</div>
                     <div class="menuDetail__item__info--custody"><i data-feather="package"></i>${menuData.info.custody}</div>
                     <div class="menuDetail__item__info--storage"><i data-feather="pocket"></i>${menuData.info.storage}</div>
-                    <div class="menuDetail__item__info--warning"><i data-feather="alert-triangle"></i>${menuData.info.warning}</div>
+                    
+                </div>
+                <hr />
+                <div class="menuDetail__item__caution">
+                    <div class="menuDetail__item__caution__title">안내 사항</div>
+                    <ul class="menuDetail__item__caution__list">
+                        <li class="menuDetail__item__caution__item">
+                            <em class="menuDetail__item__caution__item--title"><i data-feather="message-circle"></i>주문 안내</em>
+                            <p class="menuDetail__item__caution__item--desc">- 주문 문의 : 카카오톡 채널 <a href="http://pf.kakao.com/_xhvXxcxj/" target="_blank">'라몽이네 뚝떡공방'</a></p>
+                            <p class="menuDetail__item__caution__item--desc">- 주문은 최소 2~3일 전에 주문해주세요</p>
+                        </li>
+                        <li class="menuDetail__item__caution__item">
+                            <em class="menuDetail__item__caution__item--title"><i data-feather="truck"></i>배송 안내</em>
+                            <p class="menuDetail__item__caution__item--desc">- 답례품: 픽업, 퀵, 택배 배송 가능</p>
+                            <p class="menuDetail__item__caution__item--desc">- 케이크: 픽업만 가능, 청주 시내권은 배달 가능</p>
+                        </li>
+                        <li class="menuDetail__item__caution__item">
+                            <em class="menuDetail__item__caution__item--title"><i data-feather="info"></i>특정 알러지가 있으신 경우 꼭 말씀해주세요</em>
+                        </li>
+                    </ul>
                 </div>
             </div>
+        </div>
+        <div class="menuDetail__order">
+            <a class="menuDetail__order__button" href="http://pf.kakao.com/_xhvXxcxj/" target="_blank">카카오톡으로 문의하기</a>
         </div>
         `;
         return temp;

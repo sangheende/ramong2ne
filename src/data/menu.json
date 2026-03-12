@@ -45,7 +45,7 @@
     {
       "id":4,
       "name": "도라지정과",
-      "price": "3000~25000",
+      "price": "3000",
       "category": "구움과자",
       "image": "https://images.unsplash.com/photo-1597629008285-a10132d20913?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8JUVDJUI5JTk4JUVDJTk1JTk5JUVCJUE3JTg4JUVDJTlEJUI0fGVufDB8fDB8fHwy",
       "info": {
@@ -59,7 +59,7 @@
     {
       "id":5,
       "name": "호두정과",
-      "price": "3000~15000",
+      "price": "3000",
       "category": "구움과자",
       "image": "https://images.unsplash.com/photo-1597629008285-a10132d20913?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8JUVDJUI5JTk4JUVDJTk1JTk5JUVCJUE3JTg4JUVDJTlEJUI0fGVufDB8fDB8fHwy",
       "info": {
@@ -104,7 +104,7 @@
     {
       "id":8,
       "name": "수제 양갱(8가지 맛)",
-      "price": ["2000","미니-1500"],
+      "price": "2000",
       "category": "구움과자",
       "image": "https://images.unsplash.com/photo-1597629008285-a10132d20913?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8JUVDJUI5JTk4JUVDJTk1JTk5JUVCJUE3JTg4JUVDJTlEJUI0fGVufDB8fDB8fHwy",
       "info": {
@@ -119,7 +119,7 @@
     {
       "id":9,
       "name": "한입쌀쿠키(5가지 맛)",
-      "price": "3000 ~",
+      "price": "3000",
       "category": "구움과자",
       "image": "https://images.unsplash.com/photo-1597629008285-a10132d20913?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8JUVDJUI5JTk4JUVDJTk1JTk5JUVCJUE3JTg4JUVDJTlEJUI0fGVufDB8fDB8fHwy",
       "info": {
@@ -208,7 +208,7 @@
     {
       "id":15,
       "name": "송편",
-      "price": ["개별-1000","30000"],
+      "price": 1000,
       "category": "떡 / 빵",
       "image": "https://images.unsplash.com/photo-1597629008285-a10132d20913?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8JUVDJUI5JTk4JUVDJTk1JTk5JUVCJUE3JTg4JUVDJTlEJUI0fGVufDB8fDB8fHwy",
       "info": {
@@ -221,8 +221,8 @@
     },
     {
       "id":15,
-      "name": "12띠 송편",
-      "price": ["개별-1000","30000"],
+      "name": "십이간지 송편",
+      "price": 1000,
       "category": "떡 / 빵",
       "image": "https://images.unsplash.com/photo-1597629008285-a10132d20913?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8JUVDJUI5JTk4JUVDJTk1JTk5JUVCJUE3JTg4JUVDJTlEJUI0fGVufDB8fDB8fHwy",
       "info": {
@@ -371,7 +371,7 @@
     },
     {
       "id":25,
-      "name": "12띠 동물 케이크",
+      "name": "십이간지 동물 케이크",
       "price": 25000,
       "category": "케이크",
       "image": "https://images.unsplash.com/photo-1597629008285-a10132d20913?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8JUVDJUI5JTk4JUVDJTk1JTk5JUVCJUE3JTg4JUVDJTlEJUI0fGVufDB8fDB8fHwy",
@@ -386,7 +386,22 @@
     },
     {
       "id":26,
-      "name": "백일/돌 상차림 3종세트",
+      "name": "백일상/돌상",
+      "price": 25000,
+      "category": "세트메뉴",
+      "image": "https://images.unsplash.com/photo-1597629008285-a10132d20913?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8JUVDJUI5JTk4JUVDJTk1JTk5JUVCJUE3JTg4JUVDJTlEJUI0fGVufDB8fDB8fHwy",
+      "info": {
+        "desc": "백일 및 돌을 기념하는 상차림 3종 세트입니다. 전통의 아름다움과 현대적인 감각을 조화롭게 담아 특별한 날을 더욱 의미 있게 만들어줍니다.",
+        "use":"백일 및 돌 기념 행사",
+        "custody":"밀봉 후 즉시 냉동보관",
+        "storage":"즉시 섭취 권장, 냉동 보관시 2달 이내",
+        "taste": ["백설기 9구", "송편세트", "수수팥떡"],
+        "warning": "- 호두 함유"
+      }
+    },
+    {
+      "id":27,
+      "name": "케이터링",
       "price": 25000,
       "category": "세트메뉴",
       "image": "https://images.unsplash.com/photo-1597629008285-a10132d20913?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8JUVDJUI5JTk4JUVDJTk1JTk5JUVCJUE3JTg4JUVDJTlEJUI0fGVufDB8fDB8fHwy",

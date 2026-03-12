@@ -43,6 +43,19 @@ button {
   background-color: transparent;
 }
 
+ul, li {
+  list-style: none;
+}
+
+em {
+  display: block;
+  font-style: normal;
+}
+
+hr {
+  border-top: 1px solid var(--light-gray);
+}
+
 #app {
   width: 100%;
   height: 100vh;
@@ -51,8 +64,13 @@ button {
 }
 
 .header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: var(--white);
   width: 100%;
   min-height: 48px;
+  z-index: 9999;
 }
 .header .header__content {
   display: flex;
@@ -171,18 +189,21 @@ button {
      object-fit: cover;
   transition: transform 0.3s ease; /* 호버시 이미지 확대 효과 */
 }
-.menuList__item__name {
+.menuList__item__price {
   padding-left: 10px;
-  font-size: var(--fs16);
+  font-size: 18px;
   line-height: 24px;
   color: var(--gray);
 }
-.menuList__item__price {
+.menuList__item__name {
   padding-left: 10px;
-  font-size: var(--fs22);
+  font-size: 20px;
   font-weight: 600;
   line-height: 28px;
   color: var(--black);
+}
+.menuList__item--disabled {
+  order: 2;
 }
 .menuList__item--disabled .menuList__item__thumnail::before {
   content: "다음 시즌에 만나요";
@@ -201,6 +222,7 @@ button {
 }
 
 .menuDetail {
+  padding-bottom: 73px;
   overflow-y: auto;
 }
 .menuDetail .menuDetail__item__img img {
@@ -265,4 +287,55 @@ button {
   height: 24px;
   margin-right: 8px;
   vertical-align: top;
+}
+.menuDetail .menuDetail__item__content .menuDetail__item__caution__title {
+  margin-bottom: 20px;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 700;
+}
+.menuDetail .menuDetail__item__content .menuDetail__item__caution .menuDetail__item__caution__list .menuDetail__item__caution__item + .menuDetail__item__caution__item {
+  margin-top: 20px;
+}
+.menuDetail .menuDetail__item__content .menuDetail__item__caution .menuDetail__item__caution__list .menuDetail__item__caution__item--title .feather {
+  width: 20px;
+  height: 20px;
+  margin-right: 6px;
+  vertical-align: top;
+}
+.menuDetail .menuDetail__item__content .menuDetail__item__caution .menuDetail__item__caution__list .menuDetail__item__caution__item--title {
+  margin-bottom: 6px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+}
+.menuDetail .menuDetail__item__content .menuDetail__item__caution .menuDetail__item__caution__list .menuDetail__item__caution__item--desc {
+  font-size: 14px;
+  line-height: 21px;
+  color: var(--gray);
+}
+.menuDetail .menuDetail__item__content .menuDetail__item__caution .menuDetail__item__caution__list .menuDetail__item__caution__item--desc a {
+  font-weight: 700;
+}
+.menuDetail .menuDetail__order {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 12px 10px;
+  background-color: var(--white);
+  border-top: 1px solid var(--light-gray);
+}
+.menuDetail .menuDetail__order__button {
+  display: block;
+  width: 100%;
+  height: 48px;
+  border-radius: 24px;
+  background-color: var(--green);
+  color: var(--white);
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 48px;
+  cursor: pointer;
 }/*# sourceMappingURL=main.css.map */
