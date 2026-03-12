@@ -35,7 +35,6 @@ export const requestMenuDetail = async (menuId) => {
         let url = `${currentUrl}menu/${menuId}`;
         if(Data.menu){
             const menuDetailData = Data.menu.find(elm => elm.id === parseInt(menuId));
-            console.log(menuDetailData);
 
             return menuDetailData;
         }

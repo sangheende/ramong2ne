@@ -71,11 +71,17 @@ button {
   cursor: pointer;
 }
 .header__search {
-  display: flex;
-  padding: 6px 18px 0 20px;
+  display: none;
+  height: 0;
   margin-bottom: 15px;
+  transition: all 0.3s ease;
+}
+.header__search.active {
+  display: flex;
   justify-content: space-between;
   align-items: center;
+  height: auto;
+  padding: 6px 18px 0 20px;
 }
 .header__search__input {
   width: calc(100% - 50px);
@@ -139,7 +145,7 @@ button {
 }
 .menuList__content {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(195px, 1fr)); /* Responsive grid */
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Responsive grid */
   row-gap: 12px; /* 상하 여백 */
   -moz-column-gap: 8px;
        column-gap: 8px; /* 좌우 여백 */
@@ -148,7 +154,7 @@ button {
 }
 .menuList__item {
   position: relative;
-  min-width: 195px;
+  min-width: 150px;
   min-height: 300px;
   text-align: left;
   cursor: pointer;
@@ -156,7 +162,6 @@ button {
 .menuList__item__thumnail {
   position: relative;
   margin-bottom: 8px;
-  border-radius: 16px;
   overflow: hidden;
 }
 .menuList__item__thumnail img {

@@ -16,7 +16,6 @@ export default function MenuDetail({$app,initialState , renderMenuDetail}) {
                 </div>`
         }).join('') : '';
 
-        console.log(taste);
         let temp = `
         <div class="menuDetail__item">
             <div class="menuDetail__item__img">

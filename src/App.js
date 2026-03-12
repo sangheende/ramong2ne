@@ -34,7 +34,6 @@ export default function App($app) {
                 menuName: { menu: matchName },
                 searchMenu: searchMenu,
             });
-            console.log(searchMenu);
         }
     });
 

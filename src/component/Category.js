@@ -56,9 +56,6 @@ export default function Category({$app, initialState, handleCategory}) {
         };
         this.render()
 
-
-        console.log('카테고리 setState 호출', newState);
     };
 
-    // this.render()
 }

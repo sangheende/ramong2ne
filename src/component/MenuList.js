@@ -68,7 +68,5 @@ export default function MenuList({$app, initialState, handleMenuClick}) {
     this.setState = (newState) => {
         this.state = newState;
         this.render();
-
-        console.log('MenuList setState 호출', newState);
     }
 }
