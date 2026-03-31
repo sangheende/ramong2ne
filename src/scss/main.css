@@ -61,17 +61,16 @@ hr {
   height: 100vh;
   max-width: 1000px;
   margin: 0 auto;
-  padding-top: 48px;
 }
 
 .header {
-  position: fixed;
+  position: sticky;
   top: 0;
   left: 0;
   background-color: var(--white);
   width: 100%;
-  min-height: 48px;
-  z-index: 9999;
+  min-height: 60px;
+  z-index: 100;
 }
 .header .header__content {
   display: flex;
@@ -92,7 +91,6 @@ hr {
 .header__search {
   display: none;
   height: 0;
-  margin-bottom: 15px;
   transition: all 0.3s ease;
 }
 .header__search.active {
@@ -100,7 +98,7 @@ hr {
   justify-content: space-between;
   align-items: center;
   height: auto;
-  padding: 6px 18px 0 20px;
+  padding: 6px 18px 20px 20px;
 }
 .header__search__input {
   width: calc(100% - 50px);
@@ -131,6 +129,67 @@ hr {
   height: 36px;
   font-size: var(--fs16);
   cursor: pointer;
+}
+.header__sideMenu {
+  visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 200;
+  transition: all 0.3s ease;
+}
+.header__sideMenu.active {
+  visibility: visible;
+}
+.header__sideMenu.active .header__sideMenu__list {
+  width: 50%;
+}
+.header__sideMenu__title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  padding: 12px 18px;
+  border-bottom: 1px solid var(--light-gray);
+  font-size: var(--fs18);
+  font-weight: 700;
+}
+.header__sideMenu__title .header__sideMenu__closeBtn .feather-chevrons-left {
+  color: var(--gray);
+  cursor: pointer;
+}
+.header__sideMenu__list {
+  width: 0;
+  height: 100vh;
+  background-color: var(--white);
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+.header__sideMenu__item {
+  padding: 12px 18px;
+  font-size: 16px;
+  font-weight: 600;
+}
+.header__sideMenu__item.active, .header__sideMenu__item:hover {
+  background-color: var(--light-gray);
+}
+.header__sideMenu__item.active a, .header__sideMenu__item:hover a {
+  color: var(--black);
+}
+.header__sideMenu__item__title, .header__sideMenu__item__title a {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: 8px;
+  color: var(--gray);
+}
+.header__sideMenu__item__title .feather, .header__sideMenu__item__title a .feather {
+  width: 16px;
+  height: 16px;
+  background-color: var(--light-gray);
 }
 
 .category {
@@ -339,4 +398,12 @@ hr {
   text-align: center;
   line-height: 48px;
   cursor: pointer;
+}
+
+@media screen and (max-width: 480px) {
+  .header__sideMenu__list {
+    width: 100%;
+    height: 100vh;
+    background-color: var(--white);
+  }
 }/*# sourceMappingURL=main.css.map */

@@ -21,7 +21,7 @@ export default function App($app) {
     // 컴포넌트 인스턴스 1회만 생성
     const header = new Header({
         $app,
-        initialState: { sortBy: this.state.sortBy, searchMenu: this.state.searchMenu, currentPage: this.state.currentPage },
+        initialState: { sortBy: this.state.sortBy, searchMenu: this.state.searchMenu, category: this.state.category, currentPage: this.state.currentPage },
         headerSearchChange: async (searchMenu) => {
             let allMenu = this.state.allMenu;
             history.pushState(null, null, `/전체?search=${searchMenu}`);
@@ -102,7 +102,7 @@ export default function App($app) {
             $app.appendChild(header.$target);
             $app.appendChild(menuDetail.$target);
         } else {
-            header.setState({ sortBy: this.state.sortBy, searchMenu: this.state.searchMenu, currentPage: this.state.currentPage });
+            header.setState({ sortBy: this.state.sortBy, searchMenu: this.state.searchMenu,category: this.state.category, currentPage: this.state.currentPage });
             category.setState({ ...this.state});
             menuList.setState(this.state.menuName);
             $app.appendChild(header.$target);

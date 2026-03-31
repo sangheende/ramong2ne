@@ -64,17 +64,21 @@ export default function MenuDetail({$app,initialState , renderMenuDetail}) {
         </div>
         `;
         return temp;
-
     };
     
     this.render = async () => {
+
+       
         this.$target.innerHTML = await this.template();
         if (window.feather) {
             window.feather.replace();
             }
-        };  
+
+    };  
     this.setState = (newState) => {
         this.state = newState;
         this.render();
+
+        console.log(this.state.category) 
     }
 }

@@ -29,6 +29,38 @@ export default function Header({$app, initialState, headerSearchChange}) {
             </div>
             <button class="header__search__closeBtn">취소</button>
         </div>
+
+
+        <div class="header__sideMenu">
+            <div class="header__sideMenu__list">
+                <div class="header__sideMenu__title">
+                    <a href="/ramong2ne">라몽이네 뚝떡공방</a>
+                    <button class="header__sideMenu__closeBtn" type="button">
+                        <i data-feather="chevrons-left"></i>                
+                    </button>
+                </div>
+                <div class="header__sideMenu__item">
+                    <div class="header__sideMenu__item__title">
+                        <a href="#"><i data-feather="home"></i><span>홈</span></a>
+                    </div>
+                </div>
+                <!-- <div class="header__sideMenu__item">
+                    <div class="header__sideMenu__item__title">
+                        <i data-feather="instagram"></i><span>메뉴별로 보기</span>
+                    </div>
+                </div> -->
+                <div class="header__sideMenu__item">
+                 <div class="header__sideMenu__item__title">
+                        <a href="https://www.instagram.com/ramong2ne"><i data-feather="instagram"></i><span>인스타</span></a>
+                    </div>
+                </div>
+                <div class="header__sideMenu__item">
+                    <div class="header__sideMenu__item__title">
+                        <a href="https://www.instagram.com/ramong2ne"><i data-feather="external-link"></i><span>주문하러가기</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
         `;
           
         return temp;
@@ -62,11 +94,21 @@ export default function Header({$app, initialState, headerSearchChange}) {
 
 
         const funcBtn = this.$target.querySelector('.header__content__func');
+        const sideMenu = this.$target.querySelector('.header__sideMenu');
+        const sideMenuCloseBtn = this.$target.querySelector('.header__sideMenu__closeBtn');
+        
         funcBtn.addEventListener('click', (e) => {
             if (this.state.currentPage.startsWith('menu/')) {
                 history.back();
+            }else{
+                sideMenu.classList.add('active');
             }
         });
+        sideMenuCloseBtn.addEventListener('click', (e) => {
+            sideMenu.classList.remove('active');
+        })
+
+        console.log(this.state)
     }
 
     this.setState = (newState) => {
