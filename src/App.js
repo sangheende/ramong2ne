@@ -11,7 +11,14 @@ export default function App($app) {
         startIdx : 0,//몇번째 메뉴부터 불러올지
         sortBy : '',//정렬 기준
         searchMenu : '',//검색어
-        category : '',//메뉴 카테고리
+        category :  [
+            '전체',
+            '❄️ 계절메뉴',
+            '🍘 구움과자',
+            '🍡 떡 / 빵',
+            '🍰 케이크',
+            '💝 세트메뉴'
+        ],//메뉴 카테고리
         menuName : '',//현재 보여줄 메뉴
         allMenu: [], // 전체 메뉴 데이터
 
@@ -39,7 +46,7 @@ export default function App($app) {
 
     const category = new Category({
         $app,
-        initialState: this.state.category,
+        initialState: {category: this.state.category},
         handleCategory: async (categoryName) => {
             let pureCategory = categoryName.replace(/^[^ ]+ /, '');
             let allMenu = this.state.allMenu;

@@ -46,7 +46,9 @@ export default function Header({$app, initialState, headerSearchChange}) {
                 </div>
                 <!-- <div class="header__sideMenu__item">
                     <div class="header__sideMenu__item__title">
-                        <i data-feather="instagram"></i><span>메뉴별로 보기</span>
+                        <i data-feather="clipboard"></i><span>메뉴별로 보기</span>
+                    </div>
+                    <div class="header__sideMenu__item__category">
                     </div>
                 </div> -->
                 <div class="header__sideMenu__item">

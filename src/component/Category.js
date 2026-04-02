@@ -11,15 +11,7 @@ export default function Category({$app, initialState, handleCategory}) {
 
     // $app.appendChild(this.$target);
 
-    let categoryList = [
-        '전체',
-        '❄️ 계절메뉴',
-        '🍘 구움과자',
-        '🍡 떡 / 빵',
-        '🍰 케이크',
-        '💝 세트메뉴'
-    ]
-    
+    let categoryList = this.state.category
     this.template = () => {
 
         let temp = `<div class="category__list">`
