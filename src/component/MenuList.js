@@ -1,8 +1,8 @@
-export default function MenuList({$app, initialState, handleMenuClick}) {
+export default function MenuList({$app, initialState, handleSortClick}) {
     this.state = initialState;
     this.$target = document.createElement('div');
     this.$target.className = 'menuList';
-    this.handleMenuClick = handleMenuClick;
+    this.handleSortClick = handleSortClick;
 
     // $app.appendChild(this.$target);
 
@@ -33,7 +33,6 @@ export default function MenuList({$app, initialState, handleMenuClick}) {
             seasonMenu = "fall";
             break;
     }
-    
     
     this.template = () => {
         let temp = `<div class="menuList__content">`;

@@ -1,5 +1,6 @@
 import Header from './component/Header.js'
 import Category from './component/Category.js'
+import MenuHeader from './component/MenuHeader.js'
 import MenuDetail from './component/MenuDetail.js'
 import MenuList from './component/MenuList.js'
 
@@ -70,6 +71,31 @@ export default function App($app) {
         }
     });
 
+    const menuHeader = new MenuHeader({
+        $app,
+        initialState: {sortBy: this.state.sortBy, menuName: this.state.menuName},
+        handleSortClick: async(sortBy)=>{
+            let sortedMenu = [...this.state.menuName.menu];
+            switch (sortBy){
+                case 'newer':
+                sortedMenu.sort((a,b) => b.id - a.id);
+                break;
+                case 'lowerPrice':
+                    sortedMenu.sort((a,b) => a.price - b.price);
+                break;
+                case 'higherPrice':
+                    sortedMenu.sort((a,b) => b.price - a.price);
+                break;
+                default : 'total';
+            }
+            this.setState({
+                ...this.state,
+                menuName: { menu: sortedMenu },
+                sortBy: sortBy
+            });
+        }
+    })
+
     const menuList = new MenuList({
         $app,
         initialState: this.state.menuName,
@@ -111,9 +137,11 @@ export default function App($app) {
         } else {
             header.setState({ sortBy: this.state.sortBy, searchMenu: this.state.searchMenu,category: this.state.category, currentPage: this.state.currentPage });
             category.setState({ ...this.state});
+            menuHeader.setState({sortBy: this.state.sortBy, menuName: this.state.menuName});
             menuList.setState(this.state.menuName);
             $app.appendChild(header.$target);
             $app.appendChild(category.$target);
+            $app.appendChild(menuHeader.$target);
             $app.appendChild(menuList.$target);
         }
     }

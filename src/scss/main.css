@@ -218,6 +218,28 @@ hr {
   color: #6B4EFF;
 }
 
+.menuHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 18px;
+  margin-bottom: 20px;
+}
+.menuHeader__total__text {
+  font-size: 18px;
+  font-weight: 600;
+}
+.menuHeader__total__number {
+  margin-left: 4px;
+  font-size: 16px;
+  color: var(--gray);
+}
+.menuHeader__sort__select {
+  height: 36px;
+  padding: 8px 16px;
+  border: 0;
+}
+
 .menuList {
   width: 100%;
 }
